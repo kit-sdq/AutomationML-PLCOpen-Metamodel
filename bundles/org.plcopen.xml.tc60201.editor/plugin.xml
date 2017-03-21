@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated tc6_xml_v201 -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.plcopen.xml.tc60201.presentation.Tc60201ModelWizardID"
+            name="%_UI_Tc60201ModelWizard_label"
+            class="org.plcopen.xml.tc60201.presentation.Tc60201ModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Tc60201ModelFile.gif">
+         <description>%_UI_Tc60201ModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated tc6_xml_v201 -->
+      <editor
+            id="org.plcopen.xml.tc60201.presentation.Tc60201EditorID"
+            name="%_UI_Tc60201Editor_label"
+            icon="icons/full/obj16/Tc60201ModelFile.gif"
+            extensions="tc60201,xml"
+            class="org.plcopen.xml.tc60201.presentation.Tc60201Editor"
+            contributorClass="org.plcopen.xml.tc60201.presentation.Tc60201ActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
