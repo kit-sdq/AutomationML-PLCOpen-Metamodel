@@ -193,6 +193,8 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
     protected Collection<String> getInitialObjectNames() {
         if (initialObjectNames == null) {
             initialObjectNames = new ArrayList<String>();
+            initialObjectNames.add(tc60201Package.getProjectType().getName());
+            /*
             for (EStructuralFeature eStructuralFeature : ExtendedMetaData.INSTANCE.getAllElements(ExtendedMetaData.INSTANCE.getDocumentRoot(tc60201Package))) {
                 if (eStructuralFeature.isChangeable()) {
                     EClassifier eClassifier = eStructuralFeature.getEType();
@@ -205,6 +207,7 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
                 }
             }
             Collections.sort(initialObjectNames, CommonPlugin.INSTANCE.getComparator());
+            */
         }
         return initialObjectNames;
     }
