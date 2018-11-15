@@ -16,22 +16,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class ExternalVarsTypeImpl extends VarListImpl implements ExternalVarsType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ExternalVarsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getExternalVarsType();
-    }
+		return Tc60201Package.eINSTANCE.getExternalVarsType();
+	}
 
 } //ExternalVarsTypeImpl

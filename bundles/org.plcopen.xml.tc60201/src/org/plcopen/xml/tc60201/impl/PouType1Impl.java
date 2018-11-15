@@ -51,650 +51,650 @@ import org.plcopen.xml.tc60201.TransitionsType;
  */
 public class PouType1Impl extends MinimalEObjectImpl.Container implements PouType1 {
     /**
-     * The cached value of the '{@link #getInterface() <em>Interface</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getInterface() <em>Interface</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getInterface()
-     * @generated
-     * @ordered
-     */
+	 * @see #getInterface()
+	 * @generated
+	 * @ordered
+	 */
     protected InterfaceType interface_;
 
     /**
-     * The cached value of the '{@link #getActions() <em>Actions</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getActions() <em>Actions</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getActions()
-     * @generated
-     * @ordered
-     */
+	 * @see #getActions()
+	 * @generated
+	 * @ordered
+	 */
     protected ActionsType actions;
 
     /**
-     * The cached value of the '{@link #getTransitions() <em>Transitions</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getTransitions() <em>Transitions</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getTransitions()
-     * @generated
-     * @ordered
-     */
+	 * @see #getTransitions()
+	 * @generated
+	 * @ordered
+	 */
     protected TransitionsType transitions;
 
     /**
-     * The cached value of the '{@link #getBody() <em>Body</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getBody() <em>Body</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getBody()
-     * @generated
-     * @ordered
-     */
+	 * @see #getBody()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Body> body;
 
     /**
-     * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddData()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddData()
+	 * @generated
+	 * @ordered
+	 */
     protected AddData addData;
 
     /**
-     * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDocumentation()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDocumentation()
+	 * @generated
+	 * @ordered
+	 */
     protected FormattedText documentation;
 
     /**
-     * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String GLOBAL_ID_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected String globalId = GLOBAL_ID_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getPouType() <em>Pou Type</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getPouType() <em>Pou Type</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getPouType()
-     * @generated
-     * @ordered
-     */
+	 * @see #getPouType()
+	 * @generated
+	 * @ordered
+	 */
     protected static final PouType POU_TYPE_EDEFAULT = PouType.FUNCTION;
 
     /**
-     * The cached value of the '{@link #getPouType() <em>Pou Type</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getPouType() <em>Pou Type</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getPouType()
-     * @generated
-     * @ordered
-     */
+	 * @see #getPouType()
+	 * @generated
+	 * @ordered
+	 */
     protected PouType pouType = POU_TYPE_EDEFAULT;
 
     /**
-     * This is true if the Pou Type attribute has been set.
-     * <!-- begin-user-doc -->
+	 * This is true if the Pou Type attribute has been set.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
+	 * @generated
+	 * @ordered
+	 */
     protected boolean pouTypeESet;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected PouType1Impl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getPouType1();
-    }
+		return Tc60201Package.eINSTANCE.getPouType1();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public InterfaceType getInterface() {
-        return interface_;
-    }
+		return interface_;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetInterface(InterfaceType newInterface, NotificationChain msgs) {
-        InterfaceType oldInterface = interface_;
-        interface_ = newInterface;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__INTERFACE, oldInterface, newInterface);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		InterfaceType oldInterface = interface_;
+		interface_ = newInterface;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__INTERFACE, oldInterface, newInterface);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setInterface(InterfaceType newInterface) {
-        if (newInterface != interface_) {
-            NotificationChain msgs = null;
-            if (interface_ != null)
-                msgs = ((InternalEObject)interface_).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__INTERFACE, null, msgs);
-            if (newInterface != null)
-                msgs = ((InternalEObject)newInterface).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__INTERFACE, null, msgs);
-            msgs = basicSetInterface(newInterface, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__INTERFACE, newInterface, newInterface));
-    }
+		if (newInterface != interface_) {
+			NotificationChain msgs = null;
+			if (interface_ != null)
+				msgs = ((InternalEObject)interface_).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__INTERFACE, null, msgs);
+			if (newInterface != null)
+				msgs = ((InternalEObject)newInterface).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__INTERFACE, null, msgs);
+			msgs = basicSetInterface(newInterface, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__INTERFACE, newInterface, newInterface));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ActionsType getActions() {
-        return actions;
-    }
+		return actions;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetActions(ActionsType newActions, NotificationChain msgs) {
-        ActionsType oldActions = actions;
-        actions = newActions;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ACTIONS, oldActions, newActions);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		ActionsType oldActions = actions;
+		actions = newActions;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ACTIONS, oldActions, newActions);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setActions(ActionsType newActions) {
-        if (newActions != actions) {
-            NotificationChain msgs = null;
-            if (actions != null)
-                msgs = ((InternalEObject)actions).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ACTIONS, null, msgs);
-            if (newActions != null)
-                msgs = ((InternalEObject)newActions).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ACTIONS, null, msgs);
-            msgs = basicSetActions(newActions, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ACTIONS, newActions, newActions));
-    }
+		if (newActions != actions) {
+			NotificationChain msgs = null;
+			if (actions != null)
+				msgs = ((InternalEObject)actions).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ACTIONS, null, msgs);
+			if (newActions != null)
+				msgs = ((InternalEObject)newActions).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ACTIONS, null, msgs);
+			msgs = basicSetActions(newActions, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ACTIONS, newActions, newActions));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public TransitionsType getTransitions() {
-        return transitions;
-    }
+		return transitions;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetTransitions(TransitionsType newTransitions, NotificationChain msgs) {
-        TransitionsType oldTransitions = transitions;
-        transitions = newTransitions;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__TRANSITIONS, oldTransitions, newTransitions);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		TransitionsType oldTransitions = transitions;
+		transitions = newTransitions;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__TRANSITIONS, oldTransitions, newTransitions);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setTransitions(TransitionsType newTransitions) {
-        if (newTransitions != transitions) {
-            NotificationChain msgs = null;
-            if (transitions != null)
-                msgs = ((InternalEObject)transitions).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__TRANSITIONS, null, msgs);
-            if (newTransitions != null)
-                msgs = ((InternalEObject)newTransitions).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__TRANSITIONS, null, msgs);
-            msgs = basicSetTransitions(newTransitions, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__TRANSITIONS, newTransitions, newTransitions));
-    }
+		if (newTransitions != transitions) {
+			NotificationChain msgs = null;
+			if (transitions != null)
+				msgs = ((InternalEObject)transitions).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__TRANSITIONS, null, msgs);
+			if (newTransitions != null)
+				msgs = ((InternalEObject)newTransitions).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__TRANSITIONS, null, msgs);
+			msgs = basicSetTransitions(newTransitions, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__TRANSITIONS, newTransitions, newTransitions));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Body> getBody() {
-        if (body == null) {
-            body = new EObjectContainmentEList<Body>(Body.class, this, Tc60201Package.POU_TYPE1__BODY);
-        }
-        return body;
-    }
+		if (body == null) {
+			body = new EObjectContainmentEList<Body>(Body.class, this, Tc60201Package.POU_TYPE1__BODY);
+		}
+		return body;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public AddData getAddData() {
-        return addData;
-    }
+		return addData;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
-        AddData oldAddData = addData;
-        addData = newAddData;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ADD_DATA, oldAddData, newAddData);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		AddData oldAddData = addData;
+		addData = newAddData;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ADD_DATA, oldAddData, newAddData);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAddData(AddData newAddData) {
-        if (newAddData != addData) {
-            NotificationChain msgs = null;
-            if (addData != null)
-                msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ADD_DATA, null, msgs);
-            if (newAddData != null)
-                msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ADD_DATA, null, msgs);
-            msgs = basicSetAddData(newAddData, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ADD_DATA, newAddData, newAddData));
-    }
+		if (newAddData != addData) {
+			NotificationChain msgs = null;
+			if (addData != null)
+				msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ADD_DATA, null, msgs);
+			if (newAddData != null)
+				msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__ADD_DATA, null, msgs);
+			msgs = basicSetAddData(newAddData, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ADD_DATA, newAddData, newAddData));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FormattedText getDocumentation() {
-        return documentation;
-    }
+		return documentation;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
-        FormattedText oldDocumentation = documentation;
-        documentation = newDocumentation;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__DOCUMENTATION, oldDocumentation, newDocumentation);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		FormattedText oldDocumentation = documentation;
+		documentation = newDocumentation;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__DOCUMENTATION, oldDocumentation, newDocumentation);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setDocumentation(FormattedText newDocumentation) {
-        if (newDocumentation != documentation) {
-            NotificationChain msgs = null;
-            if (documentation != null)
-                msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__DOCUMENTATION, null, msgs);
-            if (newDocumentation != null)
-                msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__DOCUMENTATION, null, msgs);
-            msgs = basicSetDocumentation(newDocumentation, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__DOCUMENTATION, newDocumentation, newDocumentation));
-    }
+		if (newDocumentation != documentation) {
+			NotificationChain msgs = null;
+			if (documentation != null)
+				msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__DOCUMENTATION, null, msgs);
+			if (newDocumentation != null)
+				msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.POU_TYPE1__DOCUMENTATION, null, msgs);
+			msgs = basicSetDocumentation(newDocumentation, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__DOCUMENTATION, newDocumentation, newDocumentation));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getGlobalId() {
-        return globalId;
-    }
+		return globalId;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setGlobalId(String newGlobalId) {
-        String oldGlobalId = globalId;
-        globalId = newGlobalId;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__GLOBAL_ID, oldGlobalId, globalId));
-    }
+		String oldGlobalId = globalId;
+		globalId = newGlobalId;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__GLOBAL_ID, oldGlobalId, globalId));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public PouType getPouType() {
-        return pouType;
-    }
+		return pouType;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setPouType(PouType newPouType) {
-        PouType oldPouType = pouType;
-        pouType = newPouType == null ? POU_TYPE_EDEFAULT : newPouType;
-        boolean oldPouTypeESet = pouTypeESet;
-        pouTypeESet = true;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__POU_TYPE, oldPouType, pouType, !oldPouTypeESet));
-    }
+		PouType oldPouType = pouType;
+		pouType = newPouType == null ? POU_TYPE_EDEFAULT : newPouType;
+		boolean oldPouTypeESet = pouTypeESet;
+		pouTypeESet = true;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__POU_TYPE, oldPouType, pouType, !oldPouTypeESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void unsetPouType() {
-        PouType oldPouType = pouType;
-        boolean oldPouTypeESet = pouTypeESet;
-        pouType = POU_TYPE_EDEFAULT;
-        pouTypeESet = false;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.POU_TYPE1__POU_TYPE, oldPouType, POU_TYPE_EDEFAULT, oldPouTypeESet));
-    }
+		PouType oldPouType = pouType;
+		boolean oldPouTypeESet = pouTypeESet;
+		pouType = POU_TYPE_EDEFAULT;
+		pouTypeESet = false;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.POU_TYPE1__POU_TYPE, oldPouType, POU_TYPE_EDEFAULT, oldPouTypeESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isSetPouType() {
-        return pouTypeESet;
-    }
+		return pouTypeESet;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.POU_TYPE1__INTERFACE:
-                return basicSetInterface(null, msgs);
-            case Tc60201Package.POU_TYPE1__ACTIONS:
-                return basicSetActions(null, msgs);
-            case Tc60201Package.POU_TYPE1__TRANSITIONS:
-                return basicSetTransitions(null, msgs);
-            case Tc60201Package.POU_TYPE1__BODY:
-                return ((InternalEList<?>)getBody()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.POU_TYPE1__ADD_DATA:
-                return basicSetAddData(null, msgs);
-            case Tc60201Package.POU_TYPE1__DOCUMENTATION:
-                return basicSetDocumentation(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.POU_TYPE1__INTERFACE:
+				return basicSetInterface(null, msgs);
+			case Tc60201Package.POU_TYPE1__ACTIONS:
+				return basicSetActions(null, msgs);
+			case Tc60201Package.POU_TYPE1__TRANSITIONS:
+				return basicSetTransitions(null, msgs);
+			case Tc60201Package.POU_TYPE1__BODY:
+				return ((InternalEList<?>)getBody()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.POU_TYPE1__ADD_DATA:
+				return basicSetAddData(null, msgs);
+			case Tc60201Package.POU_TYPE1__DOCUMENTATION:
+				return basicSetDocumentation(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.POU_TYPE1__INTERFACE:
-                return getInterface();
-            case Tc60201Package.POU_TYPE1__ACTIONS:
-                return getActions();
-            case Tc60201Package.POU_TYPE1__TRANSITIONS:
-                return getTransitions();
-            case Tc60201Package.POU_TYPE1__BODY:
-                return getBody();
-            case Tc60201Package.POU_TYPE1__ADD_DATA:
-                return getAddData();
-            case Tc60201Package.POU_TYPE1__DOCUMENTATION:
-                return getDocumentation();
-            case Tc60201Package.POU_TYPE1__GLOBAL_ID:
-                return getGlobalId();
-            case Tc60201Package.POU_TYPE1__NAME:
-                return getName();
-            case Tc60201Package.POU_TYPE1__POU_TYPE:
-                return getPouType();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.POU_TYPE1__INTERFACE:
+				return getInterface();
+			case Tc60201Package.POU_TYPE1__ACTIONS:
+				return getActions();
+			case Tc60201Package.POU_TYPE1__TRANSITIONS:
+				return getTransitions();
+			case Tc60201Package.POU_TYPE1__BODY:
+				return getBody();
+			case Tc60201Package.POU_TYPE1__ADD_DATA:
+				return getAddData();
+			case Tc60201Package.POU_TYPE1__DOCUMENTATION:
+				return getDocumentation();
+			case Tc60201Package.POU_TYPE1__GLOBAL_ID:
+				return getGlobalId();
+			case Tc60201Package.POU_TYPE1__NAME:
+				return getName();
+			case Tc60201Package.POU_TYPE1__POU_TYPE:
+				return getPouType();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.POU_TYPE1__INTERFACE:
-                setInterface((InterfaceType)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__ACTIONS:
-                setActions((ActionsType)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__TRANSITIONS:
-                setTransitions((TransitionsType)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__BODY:
-                getBody().clear();
-                getBody().addAll((Collection<? extends Body>)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__ADD_DATA:
-                setAddData((AddData)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__DOCUMENTATION:
-                setDocumentation((FormattedText)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__GLOBAL_ID:
-                setGlobalId((String)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__NAME:
-                setName((String)newValue);
-                return;
-            case Tc60201Package.POU_TYPE1__POU_TYPE:
-                setPouType((PouType)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.POU_TYPE1__INTERFACE:
+				setInterface((InterfaceType)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__ACTIONS:
+				setActions((ActionsType)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__TRANSITIONS:
+				setTransitions((TransitionsType)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__BODY:
+				getBody().clear();
+				getBody().addAll((Collection<? extends Body>)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__ADD_DATA:
+				setAddData((AddData)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__DOCUMENTATION:
+				setDocumentation((FormattedText)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__GLOBAL_ID:
+				setGlobalId((String)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__NAME:
+				setName((String)newValue);
+				return;
+			case Tc60201Package.POU_TYPE1__POU_TYPE:
+				setPouType((PouType)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.POU_TYPE1__INTERFACE:
-                setInterface((InterfaceType)null);
-                return;
-            case Tc60201Package.POU_TYPE1__ACTIONS:
-                setActions((ActionsType)null);
-                return;
-            case Tc60201Package.POU_TYPE1__TRANSITIONS:
-                setTransitions((TransitionsType)null);
-                return;
-            case Tc60201Package.POU_TYPE1__BODY:
-                getBody().clear();
-                return;
-            case Tc60201Package.POU_TYPE1__ADD_DATA:
-                setAddData((AddData)null);
-                return;
-            case Tc60201Package.POU_TYPE1__DOCUMENTATION:
-                setDocumentation((FormattedText)null);
-                return;
-            case Tc60201Package.POU_TYPE1__GLOBAL_ID:
-                setGlobalId(GLOBAL_ID_EDEFAULT);
-                return;
-            case Tc60201Package.POU_TYPE1__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-            case Tc60201Package.POU_TYPE1__POU_TYPE:
-                unsetPouType();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.POU_TYPE1__INTERFACE:
+				setInterface((InterfaceType)null);
+				return;
+			case Tc60201Package.POU_TYPE1__ACTIONS:
+				setActions((ActionsType)null);
+				return;
+			case Tc60201Package.POU_TYPE1__TRANSITIONS:
+				setTransitions((TransitionsType)null);
+				return;
+			case Tc60201Package.POU_TYPE1__BODY:
+				getBody().clear();
+				return;
+			case Tc60201Package.POU_TYPE1__ADD_DATA:
+				setAddData((AddData)null);
+				return;
+			case Tc60201Package.POU_TYPE1__DOCUMENTATION:
+				setDocumentation((FormattedText)null);
+				return;
+			case Tc60201Package.POU_TYPE1__GLOBAL_ID:
+				setGlobalId(GLOBAL_ID_EDEFAULT);
+				return;
+			case Tc60201Package.POU_TYPE1__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+			case Tc60201Package.POU_TYPE1__POU_TYPE:
+				unsetPouType();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.POU_TYPE1__INTERFACE:
-                return interface_ != null;
-            case Tc60201Package.POU_TYPE1__ACTIONS:
-                return actions != null;
-            case Tc60201Package.POU_TYPE1__TRANSITIONS:
-                return transitions != null;
-            case Tc60201Package.POU_TYPE1__BODY:
-                return body != null && !body.isEmpty();
-            case Tc60201Package.POU_TYPE1__ADD_DATA:
-                return addData != null;
-            case Tc60201Package.POU_TYPE1__DOCUMENTATION:
-                return documentation != null;
-            case Tc60201Package.POU_TYPE1__GLOBAL_ID:
-                return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
-            case Tc60201Package.POU_TYPE1__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-            case Tc60201Package.POU_TYPE1__POU_TYPE:
-                return isSetPouType();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.POU_TYPE1__INTERFACE:
+				return interface_ != null;
+			case Tc60201Package.POU_TYPE1__ACTIONS:
+				return actions != null;
+			case Tc60201Package.POU_TYPE1__TRANSITIONS:
+				return transitions != null;
+			case Tc60201Package.POU_TYPE1__BODY:
+				return body != null && !body.isEmpty();
+			case Tc60201Package.POU_TYPE1__ADD_DATA:
+				return addData != null;
+			case Tc60201Package.POU_TYPE1__DOCUMENTATION:
+				return documentation != null;
+			case Tc60201Package.POU_TYPE1__GLOBAL_ID:
+				return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
+			case Tc60201Package.POU_TYPE1__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+			case Tc60201Package.POU_TYPE1__POU_TYPE:
+				return isSetPouType();
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (globalId: ");
-        result.append(globalId);
-        result.append(", name: ");
-        result.append(name);
-        result.append(", pouType: ");
-        if (pouTypeESet) result.append(pouType); else result.append("<unset>");
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (globalId: ");
+		result.append(globalId);
+		result.append(", name: ");
+		result.append(name);
+		result.append(", pouType: ");
+		if (pouTypeESet) result.append(pouType); else result.append("<unset>");
+		result.append(')');
+		return result.toString();
+	}
 
 } //PouType1Impl

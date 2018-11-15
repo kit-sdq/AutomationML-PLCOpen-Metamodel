@@ -27,108 +27,108 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface InfoType extends EObject {
     /**
-     * Returns the value of the '<em><b>Description</b></em>' containment reference.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Description</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of the '<em>Description</em>' containment reference isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @return the value of the '<em>Description</em>' containment reference.
-     * @see #setDescription(FormattedText)
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Description()
-     * @model containment="true"
-     *        extendedMetaData="kind='element' name='description' namespace='##targetNamespace'"
-     * @generated
-     */
+	 * @return the value of the '<em>Description</em>' containment reference.
+	 * @see #setDescription(FormattedText)
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Description()
+	 * @model containment="true"
+	 *        extendedMetaData="kind='element' name='description' namespace='##targetNamespace'"
+	 * @generated
+	 */
     FormattedText getDescription();
 
     /**
-     * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getDescription <em>Description</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getDescription <em>Description</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Description</em>' containment reference.
-     * @see #getDescription()
-     * @generated
-     */
+	 * @param value the new value of the '<em>Description</em>' containment reference.
+	 * @see #getDescription()
+	 * @generated
+	 */
     void setDescription(FormattedText value);
 
     /**
-     * Returns the value of the '<em><b>Name</b></em>' attribute.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * <!-- begin-model-doc -->
-     * Unique name of the additional data element.
-     * <!-- end-model-doc -->
-     * @return the value of the '<em>Name</em>' attribute.
-     * @see #setName(String)
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Name()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI" required="true"
-     *        extendedMetaData="kind='attribute' name='name'"
-     * @generated
-     */
+	 * <!-- begin-model-doc -->
+	 * Unique name of the additional data element.
+	 * <!-- end-model-doc -->
+	 * @return the value of the '<em>Name</em>' attribute.
+	 * @see #setName(String)
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Name()
+	 * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI" required="true"
+	 *        extendedMetaData="kind='attribute' name='name'"
+	 * @generated
+	 */
     String getName();
 
     /**
-     * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getName <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getName <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Name</em>' attribute.
-     * @see #getName()
-     * @generated
-     */
+	 * @param value the new value of the '<em>Name</em>' attribute.
+	 * @see #getName()
+	 * @generated
+	 */
     void setName(String value);
 
     /**
-     * Returns the value of the '<em><b>Vendor</b></em>' attribute.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Vendor</b></em>' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * <!-- begin-model-doc -->
-     * Vendor responsible for the definition of the additional data element.
-     * <!-- end-model-doc -->
-     * @return the value of the '<em>Vendor</em>' attribute.
-     * @see #setVendor(String)
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Vendor()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI" required="true"
-     *        extendedMetaData="kind='attribute' name='vendor'"
-     * @generated
-     */
+	 * <!-- begin-model-doc -->
+	 * Vendor responsible for the definition of the additional data element.
+	 * <!-- end-model-doc -->
+	 * @return the value of the '<em>Vendor</em>' attribute.
+	 * @see #setVendor(String)
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Vendor()
+	 * @model dataType="org.eclipse.emf.ecore.xml.type.AnyURI" required="true"
+	 *        extendedMetaData="kind='attribute' name='vendor'"
+	 * @generated
+	 */
     String getVendor();
 
     /**
-     * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getVendor <em>Vendor</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getVendor <em>Vendor</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Vendor</em>' attribute.
-     * @see #getVendor()
-     * @generated
-     */
+	 * @param value the new value of the '<em>Vendor</em>' attribute.
+	 * @see #getVendor()
+	 * @generated
+	 */
     void setVendor(String value);
 
     /**
-     * Returns the value of the '<em><b>Version</b></em>' attribute.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Version</b></em>' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * <!-- begin-model-doc -->
-     * Version of additional data, eg. schema version.
-     * <!-- end-model-doc -->
-     * @return the value of the '<em>Version</em>' attribute.
-     * @see #setVersion(BigDecimal)
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Version()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.Decimal"
-     *        extendedMetaData="kind='attribute' name='version'"
-     * @generated
-     */
+	 * <!-- begin-model-doc -->
+	 * Version of additional data, eg. schema version.
+	 * <!-- end-model-doc -->
+	 * @return the value of the '<em>Version</em>' attribute.
+	 * @see #setVersion(BigDecimal)
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getInfoType_Version()
+	 * @model dataType="org.eclipse.emf.ecore.xml.type.Decimal"
+	 *        extendedMetaData="kind='attribute' name='version'"
+	 * @generated
+	 */
     BigDecimal getVersion();
 
     /**
-     * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getVersion <em>Version</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * Sets the value of the '{@link org.plcopen.xml.tc60201.InfoType#getVersion <em>Version</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Version</em>' attribute.
-     * @see #getVersion()
-     * @generated
-     */
+	 * @param value the new value of the '<em>Version</em>' attribute.
+	 * @see #getVersion()
+	 * @generated
+	 */
     void setVersion(BigDecimal value);
 
 } // InfoType

@@ -21,30 +21,30 @@ import org.plcopen.xml.tc60201.Tc60201Package;
 public class Tc60201XMLProcessor extends XMLProcessor {
 
     /**
-     * Public constructor to instantiate the helper.
-     * <!-- begin-user-doc -->
+	 * Public constructor to instantiate the helper.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public Tc60201XMLProcessor() {
-        super((EPackage.Registry.INSTANCE));
-        Tc60201Package.eINSTANCE.eClass();
-    }
+		super((EPackage.Registry.INSTANCE));
+		Tc60201Package.eINSTANCE.eClass();
+	}
     
     /**
-     * Register for "*" and "xml" file extensions the Tc60201ResourceFactoryImpl factory.
-     * <!-- begin-user-doc -->
+	 * Register for "*" and "xml" file extensions the Tc60201ResourceFactoryImpl factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected Map<String, Resource.Factory> getRegistrations() {
-        if (registrations == null) {
-            super.getRegistrations();
-            registrations.put(XML_EXTENSION, new Tc60201ResourceFactoryImpl());
-            registrations.put(STAR_EXTENSION, new Tc60201ResourceFactoryImpl());
-        }
-        return registrations;
-    }
+		if (registrations == null) {
+			super.getRegistrations();
+			registrations.put(XML_EXTENSION, new Tc60201ResourceFactoryImpl());
+			registrations.put(STAR_EXTENSION, new Tc60201ResourceFactoryImpl());
+		}
+		return registrations;
+	}
 
 } //Tc60201XMLProcessor

@@ -16,22 +16,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class GlobalVarsTypeImpl extends VarListImpl implements GlobalVarsType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected GlobalVarsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getGlobalVarsType();
-    }
+		return Tc60201Package.eINSTANCE.getGlobalVarsType();
+	}
 
 } //GlobalVarsTypeImpl

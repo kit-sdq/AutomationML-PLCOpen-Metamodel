@@ -69,508 +69,508 @@ import org.plcopen.xml.tc60201.VendorElementType;
  */
 public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1 {
     /**
-     * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGroup()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGroup()
+	 * @generated
+	 * @ordered
+	 */
     protected FeatureMap group;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected LDType1Impl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getLDType1();
-    }
+		return Tc60201Package.eINSTANCE.getLDType1();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FeatureMap getGroup() {
-        if (group == null) {
-            group = new BasicFeatureMap(this, Tc60201Package.LD_TYPE1__GROUP);
-        }
-        return group;
-    }
+		if (group == null) {
+			group = new BasicFeatureMap(this, Tc60201Package.LD_TYPE1__GROUP);
+		}
+		return group;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<CommentType> getComment() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Comment());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Comment());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ErrorType> getError() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Error());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Error());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ConnectorType> getConnector() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Connector());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Connector());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ContinuationType> getContinuation() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Continuation());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Continuation());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ActionBlockType> getActionBlock() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_ActionBlock());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_ActionBlock());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<VendorElementType> getVendorElement() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_VendorElement());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_VendorElement());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<BlockType> getBlock() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Block());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Block());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<InVariableType> getInVariable() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_InVariable());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_InVariable());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<OutVariableType> getOutVariable() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_OutVariable());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_OutVariable());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<InOutVariableType> getInOutVariable() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_InOutVariable());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_InOutVariable());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<LabelType> getLabel() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Label());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Label());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<JumpType> getJump() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Jump());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Jump());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ReturnType> getReturn() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Return());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Return());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<LeftPowerRailType> getLeftPowerRail() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_LeftPowerRail());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_LeftPowerRail());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<RightPowerRailType> getRightPowerRail() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_RightPowerRail());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_RightPowerRail());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<CoilType> getCoil() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Coil());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Coil());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ContactType> getContact() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Contact());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Contact());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.LD_TYPE1__GROUP:
-                return ((InternalEList<?>)getGroup()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__COMMENT:
-                return ((InternalEList<?>)getComment()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__ERROR:
-                return ((InternalEList<?>)getError()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__CONNECTOR:
-                return ((InternalEList<?>)getConnector()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__CONTINUATION:
-                return ((InternalEList<?>)getContinuation()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
-                return ((InternalEList<?>)getActionBlock()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
-                return ((InternalEList<?>)getVendorElement()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__BLOCK:
-                return ((InternalEList<?>)getBlock()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__IN_VARIABLE:
-                return ((InternalEList<?>)getInVariable()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
-                return ((InternalEList<?>)getOutVariable()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
-                return ((InternalEList<?>)getInOutVariable()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__LABEL:
-                return ((InternalEList<?>)getLabel()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__JUMP:
-                return ((InternalEList<?>)getJump()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__RETURN:
-                return ((InternalEList<?>)getReturn()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
-                return ((InternalEList<?>)getLeftPowerRail()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
-                return ((InternalEList<?>)getRightPowerRail()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__COIL:
-                return ((InternalEList<?>)getCoil()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.LD_TYPE1__CONTACT:
-                return ((InternalEList<?>)getContact()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.LD_TYPE1__GROUP:
+				return ((InternalEList<?>)getGroup()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__COMMENT:
+				return ((InternalEList<?>)getComment()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__ERROR:
+				return ((InternalEList<?>)getError()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__CONNECTOR:
+				return ((InternalEList<?>)getConnector()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__CONTINUATION:
+				return ((InternalEList<?>)getContinuation()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
+				return ((InternalEList<?>)getActionBlock()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
+				return ((InternalEList<?>)getVendorElement()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__BLOCK:
+				return ((InternalEList<?>)getBlock()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__IN_VARIABLE:
+				return ((InternalEList<?>)getInVariable()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
+				return ((InternalEList<?>)getOutVariable()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
+				return ((InternalEList<?>)getInOutVariable()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__LABEL:
+				return ((InternalEList<?>)getLabel()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__JUMP:
+				return ((InternalEList<?>)getJump()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__RETURN:
+				return ((InternalEList<?>)getReturn()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
+				return ((InternalEList<?>)getLeftPowerRail()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
+				return ((InternalEList<?>)getRightPowerRail()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__COIL:
+				return ((InternalEList<?>)getCoil()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.LD_TYPE1__CONTACT:
+				return ((InternalEList<?>)getContact()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.LD_TYPE1__GROUP:
-                if (coreType) return getGroup();
-                return ((FeatureMap.Internal)getGroup()).getWrapper();
-            case Tc60201Package.LD_TYPE1__COMMENT:
-                return getComment();
-            case Tc60201Package.LD_TYPE1__ERROR:
-                return getError();
-            case Tc60201Package.LD_TYPE1__CONNECTOR:
-                return getConnector();
-            case Tc60201Package.LD_TYPE1__CONTINUATION:
-                return getContinuation();
-            case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
-                return getActionBlock();
-            case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
-                return getVendorElement();
-            case Tc60201Package.LD_TYPE1__BLOCK:
-                return getBlock();
-            case Tc60201Package.LD_TYPE1__IN_VARIABLE:
-                return getInVariable();
-            case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
-                return getOutVariable();
-            case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
-                return getInOutVariable();
-            case Tc60201Package.LD_TYPE1__LABEL:
-                return getLabel();
-            case Tc60201Package.LD_TYPE1__JUMP:
-                return getJump();
-            case Tc60201Package.LD_TYPE1__RETURN:
-                return getReturn();
-            case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
-                return getLeftPowerRail();
-            case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
-                return getRightPowerRail();
-            case Tc60201Package.LD_TYPE1__COIL:
-                return getCoil();
-            case Tc60201Package.LD_TYPE1__CONTACT:
-                return getContact();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.LD_TYPE1__GROUP:
+				if (coreType) return getGroup();
+				return ((FeatureMap.Internal)getGroup()).getWrapper();
+			case Tc60201Package.LD_TYPE1__COMMENT:
+				return getComment();
+			case Tc60201Package.LD_TYPE1__ERROR:
+				return getError();
+			case Tc60201Package.LD_TYPE1__CONNECTOR:
+				return getConnector();
+			case Tc60201Package.LD_TYPE1__CONTINUATION:
+				return getContinuation();
+			case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
+				return getActionBlock();
+			case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
+				return getVendorElement();
+			case Tc60201Package.LD_TYPE1__BLOCK:
+				return getBlock();
+			case Tc60201Package.LD_TYPE1__IN_VARIABLE:
+				return getInVariable();
+			case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
+				return getOutVariable();
+			case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
+				return getInOutVariable();
+			case Tc60201Package.LD_TYPE1__LABEL:
+				return getLabel();
+			case Tc60201Package.LD_TYPE1__JUMP:
+				return getJump();
+			case Tc60201Package.LD_TYPE1__RETURN:
+				return getReturn();
+			case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
+				return getLeftPowerRail();
+			case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
+				return getRightPowerRail();
+			case Tc60201Package.LD_TYPE1__COIL:
+				return getCoil();
+			case Tc60201Package.LD_TYPE1__CONTACT:
+				return getContact();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.LD_TYPE1__GROUP:
-                ((FeatureMap.Internal)getGroup()).set(newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__COMMENT:
-                getComment().clear();
-                getComment().addAll((Collection<? extends CommentType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__ERROR:
-                getError().clear();
-                getError().addAll((Collection<? extends ErrorType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__CONNECTOR:
-                getConnector().clear();
-                getConnector().addAll((Collection<? extends ConnectorType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__CONTINUATION:
-                getContinuation().clear();
-                getContinuation().addAll((Collection<? extends ContinuationType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
-                getActionBlock().clear();
-                getActionBlock().addAll((Collection<? extends ActionBlockType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
-                getVendorElement().clear();
-                getVendorElement().addAll((Collection<? extends VendorElementType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__BLOCK:
-                getBlock().clear();
-                getBlock().addAll((Collection<? extends BlockType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__IN_VARIABLE:
-                getInVariable().clear();
-                getInVariable().addAll((Collection<? extends InVariableType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
-                getOutVariable().clear();
-                getOutVariable().addAll((Collection<? extends OutVariableType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
-                getInOutVariable().clear();
-                getInOutVariable().addAll((Collection<? extends InOutVariableType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__LABEL:
-                getLabel().clear();
-                getLabel().addAll((Collection<? extends LabelType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__JUMP:
-                getJump().clear();
-                getJump().addAll((Collection<? extends JumpType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__RETURN:
-                getReturn().clear();
-                getReturn().addAll((Collection<? extends ReturnType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
-                getLeftPowerRail().clear();
-                getLeftPowerRail().addAll((Collection<? extends LeftPowerRailType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
-                getRightPowerRail().clear();
-                getRightPowerRail().addAll((Collection<? extends RightPowerRailType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__COIL:
-                getCoil().clear();
-                getCoil().addAll((Collection<? extends CoilType>)newValue);
-                return;
-            case Tc60201Package.LD_TYPE1__CONTACT:
-                getContact().clear();
-                getContact().addAll((Collection<? extends ContactType>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.LD_TYPE1__GROUP:
+				((FeatureMap.Internal)getGroup()).set(newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__COMMENT:
+				getComment().clear();
+				getComment().addAll((Collection<? extends CommentType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__ERROR:
+				getError().clear();
+				getError().addAll((Collection<? extends ErrorType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__CONNECTOR:
+				getConnector().clear();
+				getConnector().addAll((Collection<? extends ConnectorType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__CONTINUATION:
+				getContinuation().clear();
+				getContinuation().addAll((Collection<? extends ContinuationType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
+				getActionBlock().clear();
+				getActionBlock().addAll((Collection<? extends ActionBlockType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
+				getVendorElement().clear();
+				getVendorElement().addAll((Collection<? extends VendorElementType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__BLOCK:
+				getBlock().clear();
+				getBlock().addAll((Collection<? extends BlockType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__IN_VARIABLE:
+				getInVariable().clear();
+				getInVariable().addAll((Collection<? extends InVariableType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
+				getOutVariable().clear();
+				getOutVariable().addAll((Collection<? extends OutVariableType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
+				getInOutVariable().clear();
+				getInOutVariable().addAll((Collection<? extends InOutVariableType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__LABEL:
+				getLabel().clear();
+				getLabel().addAll((Collection<? extends LabelType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__JUMP:
+				getJump().clear();
+				getJump().addAll((Collection<? extends JumpType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__RETURN:
+				getReturn().clear();
+				getReturn().addAll((Collection<? extends ReturnType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
+				getLeftPowerRail().clear();
+				getLeftPowerRail().addAll((Collection<? extends LeftPowerRailType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
+				getRightPowerRail().clear();
+				getRightPowerRail().addAll((Collection<? extends RightPowerRailType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__COIL:
+				getCoil().clear();
+				getCoil().addAll((Collection<? extends CoilType>)newValue);
+				return;
+			case Tc60201Package.LD_TYPE1__CONTACT:
+				getContact().clear();
+				getContact().addAll((Collection<? extends ContactType>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.LD_TYPE1__GROUP:
-                getGroup().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__COMMENT:
-                getComment().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__ERROR:
-                getError().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__CONNECTOR:
-                getConnector().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__CONTINUATION:
-                getContinuation().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
-                getActionBlock().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
-                getVendorElement().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__BLOCK:
-                getBlock().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__IN_VARIABLE:
-                getInVariable().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
-                getOutVariable().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
-                getInOutVariable().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__LABEL:
-                getLabel().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__JUMP:
-                getJump().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__RETURN:
-                getReturn().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
-                getLeftPowerRail().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
-                getRightPowerRail().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__COIL:
-                getCoil().clear();
-                return;
-            case Tc60201Package.LD_TYPE1__CONTACT:
-                getContact().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.LD_TYPE1__GROUP:
+				getGroup().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__COMMENT:
+				getComment().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__ERROR:
+				getError().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__CONNECTOR:
+				getConnector().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__CONTINUATION:
+				getContinuation().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
+				getActionBlock().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
+				getVendorElement().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__BLOCK:
+				getBlock().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__IN_VARIABLE:
+				getInVariable().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
+				getOutVariable().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
+				getInOutVariable().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__LABEL:
+				getLabel().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__JUMP:
+				getJump().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__RETURN:
+				getReturn().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
+				getLeftPowerRail().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
+				getRightPowerRail().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__COIL:
+				getCoil().clear();
+				return;
+			case Tc60201Package.LD_TYPE1__CONTACT:
+				getContact().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.LD_TYPE1__GROUP:
-                return group != null && !group.isEmpty();
-            case Tc60201Package.LD_TYPE1__COMMENT:
-                return !getComment().isEmpty();
-            case Tc60201Package.LD_TYPE1__ERROR:
-                return !getError().isEmpty();
-            case Tc60201Package.LD_TYPE1__CONNECTOR:
-                return !getConnector().isEmpty();
-            case Tc60201Package.LD_TYPE1__CONTINUATION:
-                return !getContinuation().isEmpty();
-            case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
-                return !getActionBlock().isEmpty();
-            case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
-                return !getVendorElement().isEmpty();
-            case Tc60201Package.LD_TYPE1__BLOCK:
-                return !getBlock().isEmpty();
-            case Tc60201Package.LD_TYPE1__IN_VARIABLE:
-                return !getInVariable().isEmpty();
-            case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
-                return !getOutVariable().isEmpty();
-            case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
-                return !getInOutVariable().isEmpty();
-            case Tc60201Package.LD_TYPE1__LABEL:
-                return !getLabel().isEmpty();
-            case Tc60201Package.LD_TYPE1__JUMP:
-                return !getJump().isEmpty();
-            case Tc60201Package.LD_TYPE1__RETURN:
-                return !getReturn().isEmpty();
-            case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
-                return !getLeftPowerRail().isEmpty();
-            case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
-                return !getRightPowerRail().isEmpty();
-            case Tc60201Package.LD_TYPE1__COIL:
-                return !getCoil().isEmpty();
-            case Tc60201Package.LD_TYPE1__CONTACT:
-                return !getContact().isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.LD_TYPE1__GROUP:
+				return group != null && !group.isEmpty();
+			case Tc60201Package.LD_TYPE1__COMMENT:
+				return !getComment().isEmpty();
+			case Tc60201Package.LD_TYPE1__ERROR:
+				return !getError().isEmpty();
+			case Tc60201Package.LD_TYPE1__CONNECTOR:
+				return !getConnector().isEmpty();
+			case Tc60201Package.LD_TYPE1__CONTINUATION:
+				return !getContinuation().isEmpty();
+			case Tc60201Package.LD_TYPE1__ACTION_BLOCK:
+				return !getActionBlock().isEmpty();
+			case Tc60201Package.LD_TYPE1__VENDOR_ELEMENT:
+				return !getVendorElement().isEmpty();
+			case Tc60201Package.LD_TYPE1__BLOCK:
+				return !getBlock().isEmpty();
+			case Tc60201Package.LD_TYPE1__IN_VARIABLE:
+				return !getInVariable().isEmpty();
+			case Tc60201Package.LD_TYPE1__OUT_VARIABLE:
+				return !getOutVariable().isEmpty();
+			case Tc60201Package.LD_TYPE1__IN_OUT_VARIABLE:
+				return !getInOutVariable().isEmpty();
+			case Tc60201Package.LD_TYPE1__LABEL:
+				return !getLabel().isEmpty();
+			case Tc60201Package.LD_TYPE1__JUMP:
+				return !getJump().isEmpty();
+			case Tc60201Package.LD_TYPE1__RETURN:
+				return !getReturn().isEmpty();
+			case Tc60201Package.LD_TYPE1__LEFT_POWER_RAIL:
+				return !getLeftPowerRail().isEmpty();
+			case Tc60201Package.LD_TYPE1__RIGHT_POWER_RAIL:
+				return !getRightPowerRail().isEmpty();
+			case Tc60201Package.LD_TYPE1__COIL:
+				return !getCoil().isEmpty();
+			case Tc60201Package.LD_TYPE1__CONTACT:
+				return !getContact().isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (group: ");
-        result.append(group);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (group: ");
+		result.append(group);
+		result.append(')');
+		return result.toString();
+	}
 
 } //LDType1Impl

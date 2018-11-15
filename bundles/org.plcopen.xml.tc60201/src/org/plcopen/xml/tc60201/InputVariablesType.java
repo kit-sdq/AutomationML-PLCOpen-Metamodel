@@ -24,20 +24,20 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface InputVariablesType extends EObject {
     /**
-     * Returns the value of the '<em><b>Variable</b></em>' containment reference list.
-     * The list contents are of type {@link org.plcopen.xml.tc60201.VariableType2}.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Variable</b></em>' containment reference list.
+	 * The list contents are of type {@link org.plcopen.xml.tc60201.VariableType2}.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of the '<em>Variable</em>' containment reference list isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @return the value of the '<em>Variable</em>' containment reference list.
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getInputVariablesType_Variable()
-     * @model containment="true"
-     *        extendedMetaData="kind='element' name='variable' namespace='##targetNamespace'"
-     * @generated
-     */
+	 * @return the value of the '<em>Variable</em>' containment reference list.
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getInputVariablesType_Variable()
+	 * @model containment="true"
+	 *        extendedMetaData="kind='element' name='variable' namespace='##targetNamespace'"
+	 * @generated
+	 */
     EList<VariableType2> getVariable();
 
 } // InputVariablesType

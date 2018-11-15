@@ -31,572 +31,572 @@ import org.plcopen.xml.tc60201.VarList;
  */
 public class VarListImpl extends VarListPlainImpl implements VarList {
     /**
-     * The default value of the '{@link #isConstant() <em>Constant</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #isConstant() <em>Constant</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isConstant()
-     * @generated
-     * @ordered
-     */
+	 * @see #isConstant()
+	 * @generated
+	 * @ordered
+	 */
     protected static final boolean CONSTANT_EDEFAULT = false;
 
     /**
-     * The cached value of the '{@link #isConstant() <em>Constant</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #isConstant() <em>Constant</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isConstant()
-     * @generated
-     * @ordered
-     */
+	 * @see #isConstant()
+	 * @generated
+	 * @ordered
+	 */
     protected boolean constant = CONSTANT_EDEFAULT;
 
     /**
-     * This is true if the Constant attribute has been set.
-     * <!-- begin-user-doc -->
+	 * This is true if the Constant attribute has been set.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
+	 * @generated
+	 * @ordered
+	 */
     protected boolean constantESet;
 
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * The default value of the '{@link #isNonpersistent() <em>Nonpersistent</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #isNonpersistent() <em>Nonpersistent</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isNonpersistent()
-     * @generated
-     * @ordered
-     */
+	 * @see #isNonpersistent()
+	 * @generated
+	 * @ordered
+	 */
     protected static final boolean NONPERSISTENT_EDEFAULT = false;
 
     /**
-     * The cached value of the '{@link #isNonpersistent() <em>Nonpersistent</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #isNonpersistent() <em>Nonpersistent</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isNonpersistent()
-     * @generated
-     * @ordered
-     */
+	 * @see #isNonpersistent()
+	 * @generated
+	 * @ordered
+	 */
     protected boolean nonpersistent = NONPERSISTENT_EDEFAULT;
 
     /**
-     * This is true if the Nonpersistent attribute has been set.
-     * <!-- begin-user-doc -->
+	 * This is true if the Nonpersistent attribute has been set.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
+	 * @generated
+	 * @ordered
+	 */
     protected boolean nonpersistentESet;
 
     /**
-     * The default value of the '{@link #isNonretain() <em>Nonretain</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #isNonretain() <em>Nonretain</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isNonretain()
-     * @generated
-     * @ordered
-     */
+	 * @see #isNonretain()
+	 * @generated
+	 * @ordered
+	 */
     protected static final boolean NONRETAIN_EDEFAULT = false;
 
     /**
-     * The cached value of the '{@link #isNonretain() <em>Nonretain</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #isNonretain() <em>Nonretain</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isNonretain()
-     * @generated
-     * @ordered
-     */
+	 * @see #isNonretain()
+	 * @generated
+	 * @ordered
+	 */
     protected boolean nonretain = NONRETAIN_EDEFAULT;
 
     /**
-     * This is true if the Nonretain attribute has been set.
-     * <!-- begin-user-doc -->
+	 * This is true if the Nonretain attribute has been set.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
+	 * @generated
+	 * @ordered
+	 */
     protected boolean nonretainESet;
 
     /**
-     * The default value of the '{@link #isPersistent() <em>Persistent</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #isPersistent() <em>Persistent</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isPersistent()
-     * @generated
-     * @ordered
-     */
+	 * @see #isPersistent()
+	 * @generated
+	 * @ordered
+	 */
     protected static final boolean PERSISTENT_EDEFAULT = false;
 
     /**
-     * The cached value of the '{@link #isPersistent() <em>Persistent</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #isPersistent() <em>Persistent</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isPersistent()
-     * @generated
-     * @ordered
-     */
+	 * @see #isPersistent()
+	 * @generated
+	 * @ordered
+	 */
     protected boolean persistent = PERSISTENT_EDEFAULT;
 
     /**
-     * This is true if the Persistent attribute has been set.
-     * <!-- begin-user-doc -->
+	 * This is true if the Persistent attribute has been set.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
+	 * @generated
+	 * @ordered
+	 */
     protected boolean persistentESet;
 
     /**
-     * The default value of the '{@link #isRetain() <em>Retain</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #isRetain() <em>Retain</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isRetain()
-     * @generated
-     * @ordered
-     */
+	 * @see #isRetain()
+	 * @generated
+	 * @ordered
+	 */
     protected static final boolean RETAIN_EDEFAULT = false;
 
     /**
-     * The cached value of the '{@link #isRetain() <em>Retain</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #isRetain() <em>Retain</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #isRetain()
-     * @generated
-     * @ordered
-     */
+	 * @see #isRetain()
+	 * @generated
+	 * @ordered
+	 */
     protected boolean retain = RETAIN_EDEFAULT;
 
     /**
-     * This is true if the Retain attribute has been set.
-     * <!-- begin-user-doc -->
+	 * This is true if the Retain attribute has been set.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
+	 * @generated
+	 * @ordered
+	 */
     protected boolean retainESet;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected VarListImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getVarList();
-    }
+		return Tc60201Package.eINSTANCE.getVarList();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isConstant() {
-        return constant;
-    }
+		return constant;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setConstant(boolean newConstant) {
-        boolean oldConstant = constant;
-        constant = newConstant;
-        boolean oldConstantESet = constantESet;
-        constantESet = true;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__CONSTANT, oldConstant, constant, !oldConstantESet));
-    }
+		boolean oldConstant = constant;
+		constant = newConstant;
+		boolean oldConstantESet = constantESet;
+		constantESet = true;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__CONSTANT, oldConstant, constant, !oldConstantESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void unsetConstant() {
-        boolean oldConstant = constant;
-        boolean oldConstantESet = constantESet;
-        constant = CONSTANT_EDEFAULT;
-        constantESet = false;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__CONSTANT, oldConstant, CONSTANT_EDEFAULT, oldConstantESet));
-    }
+		boolean oldConstant = constant;
+		boolean oldConstantESet = constantESet;
+		constant = CONSTANT_EDEFAULT;
+		constantESet = false;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__CONSTANT, oldConstant, CONSTANT_EDEFAULT, oldConstantESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isSetConstant() {
-        return constantESet;
-    }
+		return constantESet;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isNonpersistent() {
-        return nonpersistent;
-    }
+		return nonpersistent;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setNonpersistent(boolean newNonpersistent) {
-        boolean oldNonpersistent = nonpersistent;
-        nonpersistent = newNonpersistent;
-        boolean oldNonpersistentESet = nonpersistentESet;
-        nonpersistentESet = true;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NONPERSISTENT, oldNonpersistent, nonpersistent, !oldNonpersistentESet));
-    }
+		boolean oldNonpersistent = nonpersistent;
+		nonpersistent = newNonpersistent;
+		boolean oldNonpersistentESet = nonpersistentESet;
+		nonpersistentESet = true;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NONPERSISTENT, oldNonpersistent, nonpersistent, !oldNonpersistentESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void unsetNonpersistent() {
-        boolean oldNonpersistent = nonpersistent;
-        boolean oldNonpersistentESet = nonpersistentESet;
-        nonpersistent = NONPERSISTENT_EDEFAULT;
-        nonpersistentESet = false;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__NONPERSISTENT, oldNonpersistent, NONPERSISTENT_EDEFAULT, oldNonpersistentESet));
-    }
+		boolean oldNonpersistent = nonpersistent;
+		boolean oldNonpersistentESet = nonpersistentESet;
+		nonpersistent = NONPERSISTENT_EDEFAULT;
+		nonpersistentESet = false;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__NONPERSISTENT, oldNonpersistent, NONPERSISTENT_EDEFAULT, oldNonpersistentESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isSetNonpersistent() {
-        return nonpersistentESet;
-    }
+		return nonpersistentESet;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isNonretain() {
-        return nonretain;
-    }
+		return nonretain;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setNonretain(boolean newNonretain) {
-        boolean oldNonretain = nonretain;
-        nonretain = newNonretain;
-        boolean oldNonretainESet = nonretainESet;
-        nonretainESet = true;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NONRETAIN, oldNonretain, nonretain, !oldNonretainESet));
-    }
+		boolean oldNonretain = nonretain;
+		nonretain = newNonretain;
+		boolean oldNonretainESet = nonretainESet;
+		nonretainESet = true;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NONRETAIN, oldNonretain, nonretain, !oldNonretainESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void unsetNonretain() {
-        boolean oldNonretain = nonretain;
-        boolean oldNonretainESet = nonretainESet;
-        nonretain = NONRETAIN_EDEFAULT;
-        nonretainESet = false;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__NONRETAIN, oldNonretain, NONRETAIN_EDEFAULT, oldNonretainESet));
-    }
+		boolean oldNonretain = nonretain;
+		boolean oldNonretainESet = nonretainESet;
+		nonretain = NONRETAIN_EDEFAULT;
+		nonretainESet = false;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__NONRETAIN, oldNonretain, NONRETAIN_EDEFAULT, oldNonretainESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isSetNonretain() {
-        return nonretainESet;
-    }
+		return nonretainESet;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isPersistent() {
-        return persistent;
-    }
+		return persistent;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setPersistent(boolean newPersistent) {
-        boolean oldPersistent = persistent;
-        persistent = newPersistent;
-        boolean oldPersistentESet = persistentESet;
-        persistentESet = true;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__PERSISTENT, oldPersistent, persistent, !oldPersistentESet));
-    }
+		boolean oldPersistent = persistent;
+		persistent = newPersistent;
+		boolean oldPersistentESet = persistentESet;
+		persistentESet = true;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__PERSISTENT, oldPersistent, persistent, !oldPersistentESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void unsetPersistent() {
-        boolean oldPersistent = persistent;
-        boolean oldPersistentESet = persistentESet;
-        persistent = PERSISTENT_EDEFAULT;
-        persistentESet = false;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__PERSISTENT, oldPersistent, PERSISTENT_EDEFAULT, oldPersistentESet));
-    }
+		boolean oldPersistent = persistent;
+		boolean oldPersistentESet = persistentESet;
+		persistent = PERSISTENT_EDEFAULT;
+		persistentESet = false;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__PERSISTENT, oldPersistent, PERSISTENT_EDEFAULT, oldPersistentESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isSetPersistent() {
-        return persistentESet;
-    }
+		return persistentESet;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isRetain() {
-        return retain;
-    }
+		return retain;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setRetain(boolean newRetain) {
-        boolean oldRetain = retain;
-        retain = newRetain;
-        boolean oldRetainESet = retainESet;
-        retainESet = true;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__RETAIN, oldRetain, retain, !oldRetainESet));
-    }
+		boolean oldRetain = retain;
+		retain = newRetain;
+		boolean oldRetainESet = retainESet;
+		retainESet = true;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__RETAIN, oldRetain, retain, !oldRetainESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void unsetRetain() {
-        boolean oldRetain = retain;
-        boolean oldRetainESet = retainESet;
-        retain = RETAIN_EDEFAULT;
-        retainESet = false;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__RETAIN, oldRetain, RETAIN_EDEFAULT, oldRetainESet));
-    }
+		boolean oldRetain = retain;
+		boolean oldRetainESet = retainESet;
+		retain = RETAIN_EDEFAULT;
+		retainESet = false;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__RETAIN, oldRetain, RETAIN_EDEFAULT, oldRetainESet));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public boolean isSetRetain() {
-        return retainESet;
-    }
+		return retainESet;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.VAR_LIST__CONSTANT:
-                return isConstant();
-            case Tc60201Package.VAR_LIST__NAME:
-                return getName();
-            case Tc60201Package.VAR_LIST__NONPERSISTENT:
-                return isNonpersistent();
-            case Tc60201Package.VAR_LIST__NONRETAIN:
-                return isNonretain();
-            case Tc60201Package.VAR_LIST__PERSISTENT:
-                return isPersistent();
-            case Tc60201Package.VAR_LIST__RETAIN:
-                return isRetain();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.VAR_LIST__CONSTANT:
+				return isConstant();
+			case Tc60201Package.VAR_LIST__NAME:
+				return getName();
+			case Tc60201Package.VAR_LIST__NONPERSISTENT:
+				return isNonpersistent();
+			case Tc60201Package.VAR_LIST__NONRETAIN:
+				return isNonretain();
+			case Tc60201Package.VAR_LIST__PERSISTENT:
+				return isPersistent();
+			case Tc60201Package.VAR_LIST__RETAIN:
+				return isRetain();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.VAR_LIST__CONSTANT:
-                setConstant((Boolean)newValue);
-                return;
-            case Tc60201Package.VAR_LIST__NAME:
-                setName((String)newValue);
-                return;
-            case Tc60201Package.VAR_LIST__NONPERSISTENT:
-                setNonpersistent((Boolean)newValue);
-                return;
-            case Tc60201Package.VAR_LIST__NONRETAIN:
-                setNonretain((Boolean)newValue);
-                return;
-            case Tc60201Package.VAR_LIST__PERSISTENT:
-                setPersistent((Boolean)newValue);
-                return;
-            case Tc60201Package.VAR_LIST__RETAIN:
-                setRetain((Boolean)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.VAR_LIST__CONSTANT:
+				setConstant((Boolean)newValue);
+				return;
+			case Tc60201Package.VAR_LIST__NAME:
+				setName((String)newValue);
+				return;
+			case Tc60201Package.VAR_LIST__NONPERSISTENT:
+				setNonpersistent((Boolean)newValue);
+				return;
+			case Tc60201Package.VAR_LIST__NONRETAIN:
+				setNonretain((Boolean)newValue);
+				return;
+			case Tc60201Package.VAR_LIST__PERSISTENT:
+				setPersistent((Boolean)newValue);
+				return;
+			case Tc60201Package.VAR_LIST__RETAIN:
+				setRetain((Boolean)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.VAR_LIST__CONSTANT:
-                unsetConstant();
-                return;
-            case Tc60201Package.VAR_LIST__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-            case Tc60201Package.VAR_LIST__NONPERSISTENT:
-                unsetNonpersistent();
-                return;
-            case Tc60201Package.VAR_LIST__NONRETAIN:
-                unsetNonretain();
-                return;
-            case Tc60201Package.VAR_LIST__PERSISTENT:
-                unsetPersistent();
-                return;
-            case Tc60201Package.VAR_LIST__RETAIN:
-                unsetRetain();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.VAR_LIST__CONSTANT:
+				unsetConstant();
+				return;
+			case Tc60201Package.VAR_LIST__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+			case Tc60201Package.VAR_LIST__NONPERSISTENT:
+				unsetNonpersistent();
+				return;
+			case Tc60201Package.VAR_LIST__NONRETAIN:
+				unsetNonretain();
+				return;
+			case Tc60201Package.VAR_LIST__PERSISTENT:
+				unsetPersistent();
+				return;
+			case Tc60201Package.VAR_LIST__RETAIN:
+				unsetRetain();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.VAR_LIST__CONSTANT:
-                return isSetConstant();
-            case Tc60201Package.VAR_LIST__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-            case Tc60201Package.VAR_LIST__NONPERSISTENT:
-                return isSetNonpersistent();
-            case Tc60201Package.VAR_LIST__NONRETAIN:
-                return isSetNonretain();
-            case Tc60201Package.VAR_LIST__PERSISTENT:
-                return isSetPersistent();
-            case Tc60201Package.VAR_LIST__RETAIN:
-                return isSetRetain();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.VAR_LIST__CONSTANT:
+				return isSetConstant();
+			case Tc60201Package.VAR_LIST__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+			case Tc60201Package.VAR_LIST__NONPERSISTENT:
+				return isSetNonpersistent();
+			case Tc60201Package.VAR_LIST__NONRETAIN:
+				return isSetNonretain();
+			case Tc60201Package.VAR_LIST__PERSISTENT:
+				return isSetPersistent();
+			case Tc60201Package.VAR_LIST__RETAIN:
+				return isSetRetain();
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (constant: ");
-        if (constantESet) result.append(constant); else result.append("<unset>");
-        result.append(", name: ");
-        result.append(name);
-        result.append(", nonpersistent: ");
-        if (nonpersistentESet) result.append(nonpersistent); else result.append("<unset>");
-        result.append(", nonretain: ");
-        if (nonretainESet) result.append(nonretain); else result.append("<unset>");
-        result.append(", persistent: ");
-        if (persistentESet) result.append(persistent); else result.append("<unset>");
-        result.append(", retain: ");
-        if (retainESet) result.append(retain); else result.append("<unset>");
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (constant: ");
+		if (constantESet) result.append(constant); else result.append("<unset>");
+		result.append(", name: ");
+		result.append(name);
+		result.append(", nonpersistent: ");
+		if (nonpersistentESet) result.append(nonpersistent); else result.append("<unset>");
+		result.append(", nonretain: ");
+		if (nonretainESet) result.append(nonretain); else result.append("<unset>");
+		result.append(", persistent: ");
+		if (persistentESet) result.append(persistent); else result.append("<unset>");
+		result.append(", retain: ");
+		if (retainESet) result.append(retain); else result.append("<unset>");
+		result.append(')');
+		return result.toString();
+	}
 
 } //VarListImpl

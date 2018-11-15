@@ -41,242 +41,242 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class DocumentRootImpl extends MinimalEObjectImpl.Container implements DocumentRoot {
     /**
-     * The cached value of the '{@link #getMixed() <em>Mixed</em>}' attribute list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getMixed() <em>Mixed</em>}' attribute list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getMixed()
-     * @generated
-     * @ordered
-     */
+	 * @see #getMixed()
+	 * @generated
+	 * @ordered
+	 */
     protected FeatureMap mixed;
 
     /**
-     * The cached value of the '{@link #getXMLNSPrefixMap() <em>XMLNS Prefix Map</em>}' map.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getXMLNSPrefixMap() <em>XMLNS Prefix Map</em>}' map.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getXMLNSPrefixMap()
-     * @generated
-     * @ordered
-     */
+	 * @see #getXMLNSPrefixMap()
+	 * @generated
+	 * @ordered
+	 */
     protected EMap<String, String> xMLNSPrefixMap;
 
     /**
-     * The cached value of the '{@link #getXSISchemaLocation() <em>XSI Schema Location</em>}' map.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getXSISchemaLocation() <em>XSI Schema Location</em>}' map.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getXSISchemaLocation()
-     * @generated
-     * @ordered
-     */
+	 * @see #getXSISchemaLocation()
+	 * @generated
+	 * @ordered
+	 */
     protected EMap<String, String> xSISchemaLocation;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected DocumentRootImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getDocumentRoot();
-    }
+		return Tc60201Package.eINSTANCE.getDocumentRoot();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FeatureMap getMixed() {
-        if (mixed == null) {
-            mixed = new BasicFeatureMap(this, Tc60201Package.DOCUMENT_ROOT__MIXED);
-        }
-        return mixed;
-    }
+		if (mixed == null) {
+			mixed = new BasicFeatureMap(this, Tc60201Package.DOCUMENT_ROOT__MIXED);
+		}
+		return mixed;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EMap<String, String> getXMLNSPrefixMap() {
-        if (xMLNSPrefixMap == null) {
-            xMLNSPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
-        }
-        return xMLNSPrefixMap;
-    }
+		if (xMLNSPrefixMap == null) {
+			xMLNSPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
+		}
+		return xMLNSPrefixMap;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EMap<String, String> getXSISchemaLocation() {
-        if (xSISchemaLocation == null) {
-            xSISchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
-        }
-        return xSISchemaLocation;
-    }
+		if (xSISchemaLocation == null) {
+			xSISchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
+		}
+		return xSISchemaLocation;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ProjectType getProject() {
-        return (ProjectType)getMixed().get(Tc60201Package.eINSTANCE.getDocumentRoot_Project(), true);
-    }
+		return (ProjectType)getMixed().get(Tc60201Package.eINSTANCE.getDocumentRoot_Project(), true);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetProject(ProjectType newProject, NotificationChain msgs) {
-        return ((FeatureMap.Internal)getMixed()).basicAdd(Tc60201Package.eINSTANCE.getDocumentRoot_Project(), newProject, msgs);
-    }
+		return ((FeatureMap.Internal)getMixed()).basicAdd(Tc60201Package.eINSTANCE.getDocumentRoot_Project(), newProject, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setProject(ProjectType newProject) {
-        ((FeatureMap.Internal)getMixed()).set(Tc60201Package.eINSTANCE.getDocumentRoot_Project(), newProject);
-    }
+		((FeatureMap.Internal)getMixed()).set(Tc60201Package.eINSTANCE.getDocumentRoot_Project(), newProject);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.DOCUMENT_ROOT__MIXED:
-                return ((InternalEList<?>)getMixed()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-                return ((InternalEList<?>)getXMLNSPrefixMap()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
-                return ((InternalEList<?>)getXSISchemaLocation()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.DOCUMENT_ROOT__PROJECT:
-                return basicSetProject(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.DOCUMENT_ROOT__MIXED:
+				return ((InternalEList<?>)getMixed()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
+				return ((InternalEList<?>)getXMLNSPrefixMap()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
+				return ((InternalEList<?>)getXSISchemaLocation()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.DOCUMENT_ROOT__PROJECT:
+				return basicSetProject(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.DOCUMENT_ROOT__MIXED:
-                if (coreType) return getMixed();
-                return ((FeatureMap.Internal)getMixed()).getWrapper();
-            case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-                if (coreType) return getXMLNSPrefixMap();
-                else return getXMLNSPrefixMap().map();
-            case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
-                if (coreType) return getXSISchemaLocation();
-                else return getXSISchemaLocation().map();
-            case Tc60201Package.DOCUMENT_ROOT__PROJECT:
-                return getProject();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.DOCUMENT_ROOT__MIXED:
+				if (coreType) return getMixed();
+				return ((FeatureMap.Internal)getMixed()).getWrapper();
+			case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
+				if (coreType) return getXMLNSPrefixMap();
+				else return getXMLNSPrefixMap().map();
+			case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
+				if (coreType) return getXSISchemaLocation();
+				else return getXSISchemaLocation().map();
+			case Tc60201Package.DOCUMENT_ROOT__PROJECT:
+				return getProject();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.DOCUMENT_ROOT__MIXED:
-                ((FeatureMap.Internal)getMixed()).set(newValue);
-                return;
-            case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-                ((EStructuralFeature.Setting)getXMLNSPrefixMap()).set(newValue);
-                return;
-            case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
-                ((EStructuralFeature.Setting)getXSISchemaLocation()).set(newValue);
-                return;
-            case Tc60201Package.DOCUMENT_ROOT__PROJECT:
-                setProject((ProjectType)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.DOCUMENT_ROOT__MIXED:
+				((FeatureMap.Internal)getMixed()).set(newValue);
+				return;
+			case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
+				((EStructuralFeature.Setting)getXMLNSPrefixMap()).set(newValue);
+				return;
+			case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
+				((EStructuralFeature.Setting)getXSISchemaLocation()).set(newValue);
+				return;
+			case Tc60201Package.DOCUMENT_ROOT__PROJECT:
+				setProject((ProjectType)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.DOCUMENT_ROOT__MIXED:
-                getMixed().clear();
-                return;
-            case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-                getXMLNSPrefixMap().clear();
-                return;
-            case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
-                getXSISchemaLocation().clear();
-                return;
-            case Tc60201Package.DOCUMENT_ROOT__PROJECT:
-                setProject((ProjectType)null);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.DOCUMENT_ROOT__MIXED:
+				getMixed().clear();
+				return;
+			case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
+				getXMLNSPrefixMap().clear();
+				return;
+			case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
+				getXSISchemaLocation().clear();
+				return;
+			case Tc60201Package.DOCUMENT_ROOT__PROJECT:
+				setProject((ProjectType)null);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.DOCUMENT_ROOT__MIXED:
-                return mixed != null && !mixed.isEmpty();
-            case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-                return xMLNSPrefixMap != null && !xMLNSPrefixMap.isEmpty();
-            case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
-                return xSISchemaLocation != null && !xSISchemaLocation.isEmpty();
-            case Tc60201Package.DOCUMENT_ROOT__PROJECT:
-                return getProject() != null;
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.DOCUMENT_ROOT__MIXED:
+				return mixed != null && !mixed.isEmpty();
+			case Tc60201Package.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
+				return xMLNSPrefixMap != null && !xMLNSPrefixMap.isEmpty();
+			case Tc60201Package.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
+				return xSISchemaLocation != null && !xSISchemaLocation.isEmpty();
+			case Tc60201Package.DOCUMENT_ROOT__PROJECT:
+				return getProject() != null;
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (mixed: ");
-        result.append(mixed);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (mixed: ");
+		result.append(mixed);
+		result.append(')');
+		return result.toString();
+	}
 
 } //DocumentRootImpl

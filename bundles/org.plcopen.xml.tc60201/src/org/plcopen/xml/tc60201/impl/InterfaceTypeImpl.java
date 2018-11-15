@@ -59,505 +59,505 @@ import org.plcopen.xml.tc60201.VarList;
  */
 public class InterfaceTypeImpl extends MinimalEObjectImpl.Container implements InterfaceType {
     /**
-     * The cached value of the '{@link #getReturnType() <em>Return Type</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getReturnType() <em>Return Type</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getReturnType()
-     * @generated
-     * @ordered
-     */
+	 * @see #getReturnType()
+	 * @generated
+	 * @ordered
+	 */
     protected DataType returnType;
 
     /**
-     * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGroup()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGroup()
+	 * @generated
+	 * @ordered
+	 */
     protected FeatureMap group;
 
     /**
-     * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddData()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddData()
+	 * @generated
+	 * @ordered
+	 */
     protected AddData addData;
 
     /**
-     * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDocumentation()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDocumentation()
+	 * @generated
+	 * @ordered
+	 */
     protected FormattedText documentation;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected InterfaceTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getInterfaceType();
-    }
+		return Tc60201Package.eINSTANCE.getInterfaceType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public DataType getReturnType() {
-        return returnType;
-    }
+		return returnType;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetReturnType(DataType newReturnType, NotificationChain msgs) {
-        DataType oldReturnType = returnType;
-        returnType = newReturnType;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, oldReturnType, newReturnType);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		DataType oldReturnType = returnType;
+		returnType = newReturnType;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, oldReturnType, newReturnType);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setReturnType(DataType newReturnType) {
-        if (newReturnType != returnType) {
-            NotificationChain msgs = null;
-            if (returnType != null)
-                msgs = ((InternalEObject)returnType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, null, msgs);
-            if (newReturnType != null)
-                msgs = ((InternalEObject)newReturnType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, null, msgs);
-            msgs = basicSetReturnType(newReturnType, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, newReturnType, newReturnType));
-    }
+		if (newReturnType != returnType) {
+			NotificationChain msgs = null;
+			if (returnType != null)
+				msgs = ((InternalEObject)returnType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, null, msgs);
+			if (newReturnType != null)
+				msgs = ((InternalEObject)newReturnType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, null, msgs);
+			msgs = basicSetReturnType(newReturnType, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__RETURN_TYPE, newReturnType, newReturnType));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FeatureMap getGroup() {
-        if (group == null) {
-            group = new BasicFeatureMap(this, Tc60201Package.INTERFACE_TYPE__GROUP);
-        }
-        return group;
-    }
+		if (group == null) {
+			group = new BasicFeatureMap(this, Tc60201Package.INTERFACE_TYPE__GROUP);
+		}
+		return group;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<LocalVarsType> getLocalVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_LocalVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_LocalVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<TempVarsType> getTempVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_TempVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_TempVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<InputVarsType> getInputVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_InputVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_InputVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<OutputVarsType> getOutputVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_OutputVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_OutputVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<InOutVarsType> getInOutVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_InOutVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_InOutVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ExternalVarsType> getExternalVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_ExternalVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_ExternalVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<GlobalVarsType> getGlobalVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_GlobalVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_GlobalVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<VarList> getAccessVars() {
-        return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_AccessVars());
-    }
+		return getGroup().list(Tc60201Package.eINSTANCE.getInterfaceType_AccessVars());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public AddData getAddData() {
-        return addData;
-    }
+		return addData;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
-        AddData oldAddData = addData;
-        addData = newAddData;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__ADD_DATA, oldAddData, newAddData);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		AddData oldAddData = addData;
+		addData = newAddData;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__ADD_DATA, oldAddData, newAddData);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAddData(AddData newAddData) {
-        if (newAddData != addData) {
-            NotificationChain msgs = null;
-            if (addData != null)
-                msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__ADD_DATA, null, msgs);
-            if (newAddData != null)
-                msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__ADD_DATA, null, msgs);
-            msgs = basicSetAddData(newAddData, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__ADD_DATA, newAddData, newAddData));
-    }
+		if (newAddData != addData) {
+			NotificationChain msgs = null;
+			if (addData != null)
+				msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__ADD_DATA, null, msgs);
+			if (newAddData != null)
+				msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__ADD_DATA, null, msgs);
+			msgs = basicSetAddData(newAddData, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__ADD_DATA, newAddData, newAddData));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FormattedText getDocumentation() {
-        return documentation;
-    }
+		return documentation;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
-        FormattedText oldDocumentation = documentation;
-        documentation = newDocumentation;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		FormattedText oldDocumentation = documentation;
+		documentation = newDocumentation;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setDocumentation(FormattedText newDocumentation) {
-        if (newDocumentation != documentation) {
-            NotificationChain msgs = null;
-            if (documentation != null)
-                msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, null, msgs);
-            if (newDocumentation != null)
-                msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, null, msgs);
-            msgs = basicSetDocumentation(newDocumentation, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
-    }
+		if (newDocumentation != documentation) {
+			NotificationChain msgs = null;
+			if (documentation != null)
+				msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, null, msgs);
+			if (newDocumentation != null)
+				msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, null, msgs);
+			msgs = basicSetDocumentation(newDocumentation, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INTERFACE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
-                return basicSetReturnType(null, msgs);
-            case Tc60201Package.INTERFACE_TYPE__GROUP:
-                return ((InternalEList<?>)getGroup()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
-                return ((InternalEList<?>)getLocalVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
-                return ((InternalEList<?>)getTempVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
-                return ((InternalEList<?>)getInputVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
-                return ((InternalEList<?>)getOutputVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
-                return ((InternalEList<?>)getInOutVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
-                return ((InternalEList<?>)getExternalVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
-                return ((InternalEList<?>)getGlobalVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
-                return ((InternalEList<?>)getAccessVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
-                return basicSetAddData(null, msgs);
-            case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
-                return basicSetDocumentation(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
+				return basicSetReturnType(null, msgs);
+			case Tc60201Package.INTERFACE_TYPE__GROUP:
+				return ((InternalEList<?>)getGroup()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
+				return ((InternalEList<?>)getLocalVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
+				return ((InternalEList<?>)getTempVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
+				return ((InternalEList<?>)getInputVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
+				return ((InternalEList<?>)getOutputVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
+				return ((InternalEList<?>)getInOutVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
+				return ((InternalEList<?>)getExternalVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
+				return ((InternalEList<?>)getGlobalVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
+				return ((InternalEList<?>)getAccessVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
+				return basicSetAddData(null, msgs);
+			case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
+				return basicSetDocumentation(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
-                return getReturnType();
-            case Tc60201Package.INTERFACE_TYPE__GROUP:
-                if (coreType) return getGroup();
-                return ((FeatureMap.Internal)getGroup()).getWrapper();
-            case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
-                return getLocalVars();
-            case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
-                return getTempVars();
-            case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
-                return getInputVars();
-            case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
-                return getOutputVars();
-            case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
-                return getInOutVars();
-            case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
-                return getExternalVars();
-            case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
-                return getGlobalVars();
-            case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
-                return getAccessVars();
-            case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
-                return getAddData();
-            case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
-                return getDocumentation();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
+				return getReturnType();
+			case Tc60201Package.INTERFACE_TYPE__GROUP:
+				if (coreType) return getGroup();
+				return ((FeatureMap.Internal)getGroup()).getWrapper();
+			case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
+				return getLocalVars();
+			case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
+				return getTempVars();
+			case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
+				return getInputVars();
+			case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
+				return getOutputVars();
+			case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
+				return getInOutVars();
+			case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
+				return getExternalVars();
+			case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
+				return getGlobalVars();
+			case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
+				return getAccessVars();
+			case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
+				return getAddData();
+			case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
+				return getDocumentation();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
-                setReturnType((DataType)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__GROUP:
-                ((FeatureMap.Internal)getGroup()).set(newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
-                getLocalVars().clear();
-                getLocalVars().addAll((Collection<? extends LocalVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
-                getTempVars().clear();
-                getTempVars().addAll((Collection<? extends TempVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
-                getInputVars().clear();
-                getInputVars().addAll((Collection<? extends InputVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
-                getOutputVars().clear();
-                getOutputVars().addAll((Collection<? extends OutputVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
-                getInOutVars().clear();
-                getInOutVars().addAll((Collection<? extends InOutVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
-                getExternalVars().clear();
-                getExternalVars().addAll((Collection<? extends ExternalVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
-                getGlobalVars().clear();
-                getGlobalVars().addAll((Collection<? extends GlobalVarsType>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
-                getAccessVars().clear();
-                getAccessVars().addAll((Collection<? extends VarList>)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
-                setAddData((AddData)newValue);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
+				setReturnType((DataType)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__GROUP:
+				((FeatureMap.Internal)getGroup()).set(newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
+				getLocalVars().clear();
+				getLocalVars().addAll((Collection<? extends LocalVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
+				getTempVars().clear();
+				getTempVars().addAll((Collection<? extends TempVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
+				getInputVars().clear();
+				getInputVars().addAll((Collection<? extends InputVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
+				getOutputVars().clear();
+				getOutputVars().addAll((Collection<? extends OutputVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
+				getInOutVars().clear();
+				getInOutVars().addAll((Collection<? extends InOutVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
+				getExternalVars().clear();
+				getExternalVars().addAll((Collection<? extends ExternalVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
+				getGlobalVars().clear();
+				getGlobalVars().addAll((Collection<? extends GlobalVarsType>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
+				getAccessVars().clear();
+				getAccessVars().addAll((Collection<? extends VarList>)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
+				setAddData((AddData)newValue);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
-                setReturnType((DataType)null);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__GROUP:
-                getGroup().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
-                getLocalVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
-                getTempVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
-                getInputVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
-                getOutputVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
-                getInOutVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
-                getExternalVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
-                getGlobalVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
-                getAccessVars().clear();
-                return;
-            case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
-                setAddData((AddData)null);
-                return;
-            case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)null);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
+				setReturnType((DataType)null);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__GROUP:
+				getGroup().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
+				getLocalVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
+				getTempVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
+				getInputVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
+				getOutputVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
+				getInOutVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
+				getExternalVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
+				getGlobalVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
+				getAccessVars().clear();
+				return;
+			case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
+				setAddData((AddData)null);
+				return;
+			case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)null);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
-                return returnType != null;
-            case Tc60201Package.INTERFACE_TYPE__GROUP:
-                return group != null && !group.isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
-                return !getLocalVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
-                return !getTempVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
-                return !getInputVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
-                return !getOutputVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
-                return !getInOutVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
-                return !getExternalVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
-                return !getGlobalVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
-                return !getAccessVars().isEmpty();
-            case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
-                return addData != null;
-            case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
-                return documentation != null;
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.INTERFACE_TYPE__RETURN_TYPE:
+				return returnType != null;
+			case Tc60201Package.INTERFACE_TYPE__GROUP:
+				return group != null && !group.isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__LOCAL_VARS:
+				return !getLocalVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__TEMP_VARS:
+				return !getTempVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__INPUT_VARS:
+				return !getInputVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__OUTPUT_VARS:
+				return !getOutputVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__IN_OUT_VARS:
+				return !getInOutVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__EXTERNAL_VARS:
+				return !getExternalVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__GLOBAL_VARS:
+				return !getGlobalVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__ACCESS_VARS:
+				return !getAccessVars().isEmpty();
+			case Tc60201Package.INTERFACE_TYPE__ADD_DATA:
+				return addData != null;
+			case Tc60201Package.INTERFACE_TYPE__DOCUMENTATION:
+				return documentation != null;
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (group: ");
-        result.append(group);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (group: ");
+		result.append(group);
+		result.append(')');
+		return result.toString();
+	}
 
 } //InterfaceTypeImpl

@@ -16,22 +16,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class LocalVarsTypeImpl extends VarListImpl implements LocalVarsType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected LocalVarsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getLocalVarsType();
-    }
+		return Tc60201Package.eINSTANCE.getLocalVarsType();
+	}
 
 } //LocalVarsTypeImpl

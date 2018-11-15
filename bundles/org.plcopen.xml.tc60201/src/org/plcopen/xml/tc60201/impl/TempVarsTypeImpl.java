@@ -16,22 +16,22 @@ import org.plcopen.xml.tc60201.TempVarsType;
  */
 public class TempVarsTypeImpl extends VarListImpl implements TempVarsType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected TempVarsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getTempVarsType();
-    }
+		return Tc60201Package.eINSTANCE.getTempVarsType();
+	}
 
 } //TempVarsTypeImpl

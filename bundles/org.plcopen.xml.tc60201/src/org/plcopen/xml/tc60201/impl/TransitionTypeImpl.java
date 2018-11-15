@@ -36,397 +36,397 @@ import org.plcopen.xml.tc60201.TransitionType;
  */
 public class TransitionTypeImpl extends MinimalEObjectImpl.Container implements TransitionType {
     /**
-     * The cached value of the '{@link #getBody() <em>Body</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getBody() <em>Body</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getBody()
-     * @generated
-     * @ordered
-     */
+	 * @see #getBody()
+	 * @generated
+	 * @ordered
+	 */
     protected Body body;
 
     /**
-     * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddData()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddData()
+	 * @generated
+	 * @ordered
+	 */
     protected AddData addData;
 
     /**
-     * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDocumentation()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDocumentation()
+	 * @generated
+	 * @ordered
+	 */
     protected FormattedText documentation;
 
     /**
-     * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String GLOBAL_ID_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected String globalId = GLOBAL_ID_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected TransitionTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getTransitionType();
-    }
+		return Tc60201Package.eINSTANCE.getTransitionType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public Body getBody() {
-        return body;
-    }
+		return body;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetBody(Body newBody, NotificationChain msgs) {
-        Body oldBody = body;
-        body = newBody;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__BODY, oldBody, newBody);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		Body oldBody = body;
+		body = newBody;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__BODY, oldBody, newBody);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setBody(Body newBody) {
-        if (newBody != body) {
-            NotificationChain msgs = null;
-            if (body != null)
-                msgs = ((InternalEObject)body).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__BODY, null, msgs);
-            if (newBody != null)
-                msgs = ((InternalEObject)newBody).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__BODY, null, msgs);
-            msgs = basicSetBody(newBody, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__BODY, newBody, newBody));
-    }
+		if (newBody != body) {
+			NotificationChain msgs = null;
+			if (body != null)
+				msgs = ((InternalEObject)body).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__BODY, null, msgs);
+			if (newBody != null)
+				msgs = ((InternalEObject)newBody).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__BODY, null, msgs);
+			msgs = basicSetBody(newBody, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__BODY, newBody, newBody));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public AddData getAddData() {
-        return addData;
-    }
+		return addData;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
-        AddData oldAddData = addData;
-        addData = newAddData;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__ADD_DATA, oldAddData, newAddData);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		AddData oldAddData = addData;
+		addData = newAddData;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__ADD_DATA, oldAddData, newAddData);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAddData(AddData newAddData) {
-        if (newAddData != addData) {
-            NotificationChain msgs = null;
-            if (addData != null)
-                msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__ADD_DATA, null, msgs);
-            if (newAddData != null)
-                msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__ADD_DATA, null, msgs);
-            msgs = basicSetAddData(newAddData, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__ADD_DATA, newAddData, newAddData));
-    }
+		if (newAddData != addData) {
+			NotificationChain msgs = null;
+			if (addData != null)
+				msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__ADD_DATA, null, msgs);
+			if (newAddData != null)
+				msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__ADD_DATA, null, msgs);
+			msgs = basicSetAddData(newAddData, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__ADD_DATA, newAddData, newAddData));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FormattedText getDocumentation() {
-        return documentation;
-    }
+		return documentation;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
-        FormattedText oldDocumentation = documentation;
-        documentation = newDocumentation;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		FormattedText oldDocumentation = documentation;
+		documentation = newDocumentation;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setDocumentation(FormattedText newDocumentation) {
-        if (newDocumentation != documentation) {
-            NotificationChain msgs = null;
-            if (documentation != null)
-                msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, null, msgs);
-            if (newDocumentation != null)
-                msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, null, msgs);
-            msgs = basicSetDocumentation(newDocumentation, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
-    }
+		if (newDocumentation != documentation) {
+			NotificationChain msgs = null;
+			if (documentation != null)
+				msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, null, msgs);
+			if (newDocumentation != null)
+				msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, null, msgs);
+			msgs = basicSetDocumentation(newDocumentation, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getGlobalId() {
-        return globalId;
-    }
+		return globalId;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setGlobalId(String newGlobalId) {
-        String oldGlobalId = globalId;
-        globalId = newGlobalId;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__GLOBAL_ID, oldGlobalId, globalId));
-    }
+		String oldGlobalId = globalId;
+		globalId = newGlobalId;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__GLOBAL_ID, oldGlobalId, globalId));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.TRANSITION_TYPE__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.TRANSITION_TYPE__BODY:
-                return basicSetBody(null, msgs);
-            case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
-                return basicSetAddData(null, msgs);
-            case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
-                return basicSetDocumentation(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.TRANSITION_TYPE__BODY:
+				return basicSetBody(null, msgs);
+			case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
+				return basicSetAddData(null, msgs);
+			case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
+				return basicSetDocumentation(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.TRANSITION_TYPE__BODY:
-                return getBody();
-            case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
-                return getAddData();
-            case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
-                return getDocumentation();
-            case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
-                return getGlobalId();
-            case Tc60201Package.TRANSITION_TYPE__NAME:
-                return getName();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.TRANSITION_TYPE__BODY:
+				return getBody();
+			case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
+				return getAddData();
+			case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
+				return getDocumentation();
+			case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
+				return getGlobalId();
+			case Tc60201Package.TRANSITION_TYPE__NAME:
+				return getName();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.TRANSITION_TYPE__BODY:
-                setBody((Body)newValue);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
-                setAddData((AddData)newValue);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)newValue);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
-                setGlobalId((String)newValue);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__NAME:
-                setName((String)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.TRANSITION_TYPE__BODY:
+				setBody((Body)newValue);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
+				setAddData((AddData)newValue);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)newValue);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
+				setGlobalId((String)newValue);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__NAME:
+				setName((String)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.TRANSITION_TYPE__BODY:
-                setBody((Body)null);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
-                setAddData((AddData)null);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)null);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
-                setGlobalId(GLOBAL_ID_EDEFAULT);
-                return;
-            case Tc60201Package.TRANSITION_TYPE__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.TRANSITION_TYPE__BODY:
+				setBody((Body)null);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
+				setAddData((AddData)null);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)null);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
+				setGlobalId(GLOBAL_ID_EDEFAULT);
+				return;
+			case Tc60201Package.TRANSITION_TYPE__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.TRANSITION_TYPE__BODY:
-                return body != null;
-            case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
-                return addData != null;
-            case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
-                return documentation != null;
-            case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
-                return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
-            case Tc60201Package.TRANSITION_TYPE__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.TRANSITION_TYPE__BODY:
+				return body != null;
+			case Tc60201Package.TRANSITION_TYPE__ADD_DATA:
+				return addData != null;
+			case Tc60201Package.TRANSITION_TYPE__DOCUMENTATION:
+				return documentation != null;
+			case Tc60201Package.TRANSITION_TYPE__GLOBAL_ID:
+				return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
+			case Tc60201Package.TRANSITION_TYPE__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (globalId: ");
-        result.append(globalId);
-        result.append(", name: ");
-        result.append(name);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (globalId: ");
+		result.append(globalId);
+		result.append(", name: ");
+		result.append(name);
+		result.append(')');
+		return result.toString();
+	}
 
 } //TransitionTypeImpl

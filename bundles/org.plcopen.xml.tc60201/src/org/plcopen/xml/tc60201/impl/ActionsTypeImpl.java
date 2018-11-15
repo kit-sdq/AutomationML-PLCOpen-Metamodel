@@ -35,118 +35,118 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class ActionsTypeImpl extends MinimalEObjectImpl.Container implements ActionsType {
     /**
-     * The cached value of the '{@link #getAction() <em>Action</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAction() <em>Action</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAction()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAction()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<ActionType1> action;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ActionsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getActionsType();
-    }
+		return Tc60201Package.eINSTANCE.getActionsType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ActionType1> getAction() {
-        if (action == null) {
-            action = new EObjectContainmentEList<ActionType1>(ActionType1.class, this, Tc60201Package.ACTIONS_TYPE__ACTION);
-        }
-        return action;
-    }
+		if (action == null) {
+			action = new EObjectContainmentEList<ActionType1>(ActionType1.class, this, Tc60201Package.ACTIONS_TYPE__ACTION);
+		}
+		return action;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.ACTIONS_TYPE__ACTION:
-                return ((InternalEList<?>)getAction()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.ACTIONS_TYPE__ACTION:
+				return ((InternalEList<?>)getAction()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.ACTIONS_TYPE__ACTION:
-                return getAction();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.ACTIONS_TYPE__ACTION:
+				return getAction();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.ACTIONS_TYPE__ACTION:
-                getAction().clear();
-                getAction().addAll((Collection<? extends ActionType1>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.ACTIONS_TYPE__ACTION:
+				getAction().clear();
+				getAction().addAll((Collection<? extends ActionType1>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.ACTIONS_TYPE__ACTION:
-                getAction().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.ACTIONS_TYPE__ACTION:
+				getAction().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.ACTIONS_TYPE__ACTION:
-                return action != null && !action.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.ACTIONS_TYPE__ACTION:
+				return action != null && !action.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //ActionsTypeImpl

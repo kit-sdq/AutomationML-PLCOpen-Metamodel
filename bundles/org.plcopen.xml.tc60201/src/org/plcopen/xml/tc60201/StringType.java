@@ -26,30 +26,30 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface StringType extends EObject {
     /**
-     * Returns the value of the '<em><b>Length</b></em>' attribute.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Length</b></em>' attribute.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of the '<em>Length</em>' attribute isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @return the value of the '<em>Length</em>' attribute.
-     * @see #setLength(String)
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getStringType_Length()
-     * @model dataType="org.eclipse.emf.ecore.xml.type.String"
-     *        extendedMetaData="kind='attribute' name='length'"
-     * @generated
-     */
+	 * @return the value of the '<em>Length</em>' attribute.
+	 * @see #setLength(String)
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getStringType_Length()
+	 * @model dataType="org.eclipse.emf.ecore.xml.type.String"
+	 *        extendedMetaData="kind='attribute' name='length'"
+	 * @generated
+	 */
     String getLength();
 
     /**
-     * Sets the value of the '{@link org.plcopen.xml.tc60201.StringType#getLength <em>Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * Sets the value of the '{@link org.plcopen.xml.tc60201.StringType#getLength <em>Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param value the new value of the '<em>Length</em>' attribute.
-     * @see #getLength()
-     * @generated
-     */
+	 * @param value the new value of the '<em>Length</em>' attribute.
+	 * @see #getLength()
+	 * @generated
+	 */
     void setLength(String value);
 
 } // StringType

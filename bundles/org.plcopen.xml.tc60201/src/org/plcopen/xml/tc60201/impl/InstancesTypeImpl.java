@@ -30,147 +30,147 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class InstancesTypeImpl extends MinimalEObjectImpl.Container implements InstancesType {
     /**
-     * The cached value of the '{@link #getConfigurations() <em>Configurations</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getConfigurations() <em>Configurations</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getConfigurations()
-     * @generated
-     * @ordered
-     */
+	 * @see #getConfigurations()
+	 * @generated
+	 * @ordered
+	 */
     protected ConfigurationsType configurations;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected InstancesTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getInstancesType();
-    }
+		return Tc60201Package.eINSTANCE.getInstancesType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ConfigurationsType getConfigurations() {
-        return configurations;
-    }
+		return configurations;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetConfigurations(ConfigurationsType newConfigurations, NotificationChain msgs) {
-        ConfigurationsType oldConfigurations = configurations;
-        configurations = newConfigurations;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, oldConfigurations, newConfigurations);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		ConfigurationsType oldConfigurations = configurations;
+		configurations = newConfigurations;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, oldConfigurations, newConfigurations);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setConfigurations(ConfigurationsType newConfigurations) {
-        if (newConfigurations != configurations) {
-            NotificationChain msgs = null;
-            if (configurations != null)
-                msgs = ((InternalEObject)configurations).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, null, msgs);
-            if (newConfigurations != null)
-                msgs = ((InternalEObject)newConfigurations).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, null, msgs);
-            msgs = basicSetConfigurations(newConfigurations, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, newConfigurations, newConfigurations));
-    }
+		if (newConfigurations != configurations) {
+			NotificationChain msgs = null;
+			if (configurations != null)
+				msgs = ((InternalEObject)configurations).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, null, msgs);
+			if (newConfigurations != null)
+				msgs = ((InternalEObject)newConfigurations).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, null, msgs);
+			msgs = basicSetConfigurations(newConfigurations, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS, newConfigurations, newConfigurations));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
-                return basicSetConfigurations(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
+				return basicSetConfigurations(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
-                return getConfigurations();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
+				return getConfigurations();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
-                setConfigurations((ConfigurationsType)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
+				setConfigurations((ConfigurationsType)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
-                setConfigurations((ConfigurationsType)null);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
+				setConfigurations((ConfigurationsType)null);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
-                return configurations != null;
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.INSTANCES_TYPE__CONFIGURATIONS:
+				return configurations != null;
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //InstancesTypeImpl

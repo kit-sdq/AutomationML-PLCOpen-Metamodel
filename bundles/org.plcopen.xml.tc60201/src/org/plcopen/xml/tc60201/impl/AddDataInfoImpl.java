@@ -35,118 +35,118 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class AddDataInfoImpl extends MinimalEObjectImpl.Container implements AddDataInfo {
     /**
-     * The cached value of the '{@link #getInfo() <em>Info</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getInfo() <em>Info</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getInfo()
-     * @generated
-     * @ordered
-     */
+	 * @see #getInfo()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<InfoType> info;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected AddDataInfoImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getAddDataInfo();
-    }
+		return Tc60201Package.eINSTANCE.getAddDataInfo();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<InfoType> getInfo() {
-        if (info == null) {
-            info = new EObjectContainmentEList<InfoType>(InfoType.class, this, Tc60201Package.ADD_DATA_INFO__INFO);
-        }
-        return info;
-    }
+		if (info == null) {
+			info = new EObjectContainmentEList<InfoType>(InfoType.class, this, Tc60201Package.ADD_DATA_INFO__INFO);
+		}
+		return info;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.ADD_DATA_INFO__INFO:
-                return ((InternalEList<?>)getInfo()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.ADD_DATA_INFO__INFO:
+				return ((InternalEList<?>)getInfo()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.ADD_DATA_INFO__INFO:
-                return getInfo();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.ADD_DATA_INFO__INFO:
+				return getInfo();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.ADD_DATA_INFO__INFO:
-                getInfo().clear();
-                getInfo().addAll((Collection<? extends InfoType>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.ADD_DATA_INFO__INFO:
+				getInfo().clear();
+				getInfo().addAll((Collection<? extends InfoType>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.ADD_DATA_INFO__INFO:
-                getInfo().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.ADD_DATA_INFO__INFO:
+				getInfo().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.ADD_DATA_INFO__INFO:
-                return info != null && !info.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.ADD_DATA_INFO__INFO:
+				return info != null && !info.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //AddDataInfoImpl

@@ -35,118 +35,118 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class ConfigurationsTypeImpl extends MinimalEObjectImpl.Container implements ConfigurationsType {
     /**
-     * The cached value of the '{@link #getConfiguration() <em>Configuration</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getConfiguration() <em>Configuration</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getConfiguration()
-     * @generated
-     * @ordered
-     */
+	 * @see #getConfiguration()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<ConfigurationType> configuration;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ConfigurationsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getConfigurationsType();
-    }
+		return Tc60201Package.eINSTANCE.getConfigurationsType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ConfigurationType> getConfiguration() {
-        if (configuration == null) {
-            configuration = new EObjectContainmentEList<ConfigurationType>(ConfigurationType.class, this, Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION);
-        }
-        return configuration;
-    }
+		if (configuration == null) {
+			configuration = new EObjectContainmentEList<ConfigurationType>(ConfigurationType.class, this, Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION);
+		}
+		return configuration;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
-                return ((InternalEList<?>)getConfiguration()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
+				return ((InternalEList<?>)getConfiguration()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
-                return getConfiguration();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
+				return getConfiguration();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
-                getConfiguration().clear();
-                getConfiguration().addAll((Collection<? extends ConfigurationType>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
+				getConfiguration().clear();
+				getConfiguration().addAll((Collection<? extends ConfigurationType>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
-                getConfiguration().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
+				getConfiguration().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
-                return configuration != null && !configuration.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATIONS_TYPE__CONFIGURATION:
+				return configuration != null && !configuration.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //ConfigurationsTypeImpl

@@ -22,223 +22,223 @@ import org.eclipse.emf.common.util.Enumerator;
  */
 public enum PouType implements Enumerator {
     /**
-     * The '<em><b>Function</b></em>' literal object.
-     * <!-- begin-user-doc -->
+	 * The '<em><b>Function</b></em>' literal object.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #FUNCTION_VALUE
-     * @generated
-     * @ordered
-     */
+	 * @see #FUNCTION_VALUE
+	 * @generated
+	 * @ordered
+	 */
     FUNCTION(0, "function", "function"),
 
     /**
-     * The '<em><b>Function Block</b></em>' literal object.
-     * <!-- begin-user-doc -->
+	 * The '<em><b>Function Block</b></em>' literal object.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #FUNCTION_BLOCK_VALUE
-     * @generated
-     * @ordered
-     */
+	 * @see #FUNCTION_BLOCK_VALUE
+	 * @generated
+	 * @ordered
+	 */
     FUNCTION_BLOCK(1, "functionBlock", "functionBlock"),
 
     /**
-     * The '<em><b>Program</b></em>' literal object.
-     * <!-- begin-user-doc -->
+	 * The '<em><b>Program</b></em>' literal object.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #PROGRAM_VALUE
-     * @generated
-     * @ordered
-     */
+	 * @see #PROGRAM_VALUE
+	 * @generated
+	 * @ordered
+	 */
     PROGRAM(2, "program", "program");
 
     /**
-     * The '<em><b>Function</b></em>' literal value.
-     * <!-- begin-user-doc -->
+	 * The '<em><b>Function</b></em>' literal value.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of '<em><b>Function</b></em>' literal object isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @see #FUNCTION
-     * @model name="function"
-     * @generated
-     * @ordered
-     */
+	 * @see #FUNCTION
+	 * @model name="function"
+	 * @generated
+	 * @ordered
+	 */
     public static final int FUNCTION_VALUE = 0;
 
     /**
-     * The '<em><b>Function Block</b></em>' literal value.
-     * <!-- begin-user-doc -->
+	 * The '<em><b>Function Block</b></em>' literal value.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of '<em><b>Function Block</b></em>' literal object isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @see #FUNCTION_BLOCK
-     * @model name="functionBlock"
-     * @generated
-     * @ordered
-     */
+	 * @see #FUNCTION_BLOCK
+	 * @model name="functionBlock"
+	 * @generated
+	 * @ordered
+	 */
     public static final int FUNCTION_BLOCK_VALUE = 1;
 
     /**
-     * The '<em><b>Program</b></em>' literal value.
-     * <!-- begin-user-doc -->
+	 * The '<em><b>Program</b></em>' literal value.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of '<em><b>Program</b></em>' literal object isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @see #PROGRAM
-     * @model name="program"
-     * @generated
-     * @ordered
-     */
+	 * @see #PROGRAM
+	 * @model name="program"
+	 * @generated
+	 * @ordered
+	 */
     public static final int PROGRAM_VALUE = 2;
 
     /**
-     * An array of all the '<em><b>Pou Type</b></em>' enumerators.
-     * <!-- begin-user-doc -->
+	 * An array of all the '<em><b>Pou Type</b></em>' enumerators.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     private static final PouType[] VALUES_ARRAY =
         new PouType[] {
-            FUNCTION,
-            FUNCTION_BLOCK,
-            PROGRAM,
-        };
+			FUNCTION,
+			FUNCTION_BLOCK,
+			PROGRAM,
+		};
 
     /**
-     * A public read-only list of all the '<em><b>Pou Type</b></em>' enumerators.
-     * <!-- begin-user-doc -->
+	 * A public read-only list of all the '<em><b>Pou Type</b></em>' enumerators.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static final List<PouType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
     /**
-     * Returns the '<em><b>Pou Type</b></em>' literal with the specified literal value.
-     * <!-- begin-user-doc -->
+	 * Returns the '<em><b>Pou Type</b></em>' literal with the specified literal value.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param literal the literal.
-     * @return the matching enumerator or <code>null</code>.
-     * @generated
-     */
+	 * @param literal the literal.
+	 * @return the matching enumerator or <code>null</code>.
+	 * @generated
+	 */
     public static PouType get(String literal) {
-        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-            PouType result = VALUES_ARRAY[i];
-            if (result.toString().equals(literal)) {
-                return result;
-            }
-        }
-        return null;
-    }
+		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+			PouType result = VALUES_ARRAY[i];
+			if (result.toString().equals(literal)) {
+				return result;
+			}
+		}
+		return null;
+	}
 
     /**
-     * Returns the '<em><b>Pou Type</b></em>' literal with the specified name.
-     * <!-- begin-user-doc -->
+	 * Returns the '<em><b>Pou Type</b></em>' literal with the specified name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param name the name.
-     * @return the matching enumerator or <code>null</code>.
-     * @generated
-     */
+	 * @param name the name.
+	 * @return the matching enumerator or <code>null</code>.
+	 * @generated
+	 */
     public static PouType getByName(String name) {
-        for (int i = 0; i < VALUES_ARRAY.length; ++i) {
-            PouType result = VALUES_ARRAY[i];
-            if (result.getName().equals(name)) {
-                return result;
-            }
-        }
-        return null;
-    }
+		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
+			PouType result = VALUES_ARRAY[i];
+			if (result.getName().equals(name)) {
+				return result;
+			}
+		}
+		return null;
+	}
 
     /**
-     * Returns the '<em><b>Pou Type</b></em>' literal with the specified integer value.
-     * <!-- begin-user-doc -->
+	 * Returns the '<em><b>Pou Type</b></em>' literal with the specified integer value.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @param value the integer value.
-     * @return the matching enumerator or <code>null</code>.
-     * @generated
-     */
+	 * @param value the integer value.
+	 * @return the matching enumerator or <code>null</code>.
+	 * @generated
+	 */
     public static PouType get(int value) {
-        switch (value) {
-            case FUNCTION_VALUE: return FUNCTION;
-            case FUNCTION_BLOCK_VALUE: return FUNCTION_BLOCK;
-            case PROGRAM_VALUE: return PROGRAM;
-        }
-        return null;
-    }
+		switch (value) {
+			case FUNCTION_VALUE: return FUNCTION;
+			case FUNCTION_BLOCK_VALUE: return FUNCTION_BLOCK;
+			case PROGRAM_VALUE: return PROGRAM;
+		}
+		return null;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     private final int value;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     private final String name;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     private final String literal;
 
     /**
-     * Only this class can construct instances.
-     * <!-- begin-user-doc -->
+	 * Only this class can construct instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     private PouType(int value, String name, String literal) {
-        this.value = value;
-        this.name = name;
-        this.literal = literal;
-    }
+		this.value = value;
+		this.name = name;
+		this.literal = literal;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public int getValue() {
-      return value;
-    }
+	  return value;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-      return name;
-    }
+	  return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getLiteral() {
-      return literal;
-    }
+	  return literal;
+	}
 
     /**
-     * Returns the literal value of the enumerator, which is its string representation.
-     * <!-- begin-user-doc -->
+	 * Returns the literal value of the enumerator, which is its string representation.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        return literal;
-    }
+		return literal;
+	}
     
 } //PouType

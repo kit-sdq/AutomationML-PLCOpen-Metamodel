@@ -35,118 +35,118 @@ import org.plcopen.xml.tc60201.VariableType5;
  */
 public class InOutVariablesType1Impl extends MinimalEObjectImpl.Container implements InOutVariablesType1 {
     /**
-     * The cached value of the '{@link #getVariable() <em>Variable</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getVariable() <em>Variable</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getVariable()
-     * @generated
-     * @ordered
-     */
+	 * @see #getVariable()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<VariableType5> variable;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected InOutVariablesType1Impl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getInOutVariablesType1();
-    }
+		return Tc60201Package.eINSTANCE.getInOutVariablesType1();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<VariableType5> getVariable() {
-        if (variable == null) {
-            variable = new EObjectContainmentEList<VariableType5>(VariableType5.class, this, Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE);
-        }
-        return variable;
-    }
+		if (variable == null) {
+			variable = new EObjectContainmentEList<VariableType5>(VariableType5.class, this, Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE);
+		}
+		return variable;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
-                return ((InternalEList<?>)getVariable()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
+				return ((InternalEList<?>)getVariable()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
-                return getVariable();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
+				return getVariable();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
-                getVariable().clear();
-                getVariable().addAll((Collection<? extends VariableType5>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
+				getVariable().clear();
+				getVariable().addAll((Collection<? extends VariableType5>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
-                getVariable().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
+				getVariable().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
-                return variable != null && !variable.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.IN_OUT_VARIABLES_TYPE1__VARIABLE:
+				return variable != null && !variable.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //InOutVariablesType1Impl

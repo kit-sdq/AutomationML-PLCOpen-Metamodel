@@ -16,22 +16,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class ConnectionPointInTypeImpl extends ConnectionPointInImpl implements ConnectionPointInType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ConnectionPointInTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getConnectionPointInType();
-    }
+		return Tc60201Package.eINSTANCE.getConnectionPointInType();
+	}
 
 } //ConnectionPointInTypeImpl

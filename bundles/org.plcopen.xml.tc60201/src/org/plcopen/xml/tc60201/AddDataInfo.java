@@ -28,20 +28,20 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface AddDataInfo extends EObject {
     /**
-     * Returns the value of the '<em><b>Info</b></em>' containment reference list.
-     * The list contents are of type {@link org.plcopen.xml.tc60201.InfoType}.
-     * <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Info</b></em>' containment reference list.
+	 * The list contents are of type {@link org.plcopen.xml.tc60201.InfoType}.
+	 * <!-- begin-user-doc -->
      * <p>
      * If the meaning of the '<em>Info</em>' containment reference list isn't clear,
      * there really should be more of a description here...
      * </p>
      * <!-- end-user-doc -->
-     * @return the value of the '<em>Info</em>' containment reference list.
-     * @see org.plcopen.xml.tc60201.Tc60201Package#getAddDataInfo_Info()
-     * @model containment="true"
-     *        extendedMetaData="kind='element' name='info' namespace='##targetNamespace'"
-     * @generated
-     */
+	 * @return the value of the '<em>Info</em>' containment reference list.
+	 * @see org.plcopen.xml.tc60201.Tc60201Package#getAddDataInfo_Info()
+	 * @model containment="true"
+	 *        extendedMetaData="kind='element' name='info' namespace='##targetNamespace'"
+	 * @generated
+	 */
     EList<InfoType> getInfo();
 
 } // AddDataInfo

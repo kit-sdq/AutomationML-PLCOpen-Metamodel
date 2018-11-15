@@ -47,438 +47,438 @@ import org.plcopen.xml.tc60201.VarList;
  */
 public class ResourceTypeImpl extends MinimalEObjectImpl.Container implements ResourceType {
     /**
-     * The cached value of the '{@link #getTask() <em>Task</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getTask() <em>Task</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getTask()
-     * @generated
-     * @ordered
-     */
+	 * @see #getTask()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<TaskType> task;
 
     /**
-     * The cached value of the '{@link #getGlobalVars() <em>Global Vars</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGlobalVars() <em>Global Vars</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalVars()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalVars()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<VarList> globalVars;
 
     /**
-     * The cached value of the '{@link #getPouInstance() <em>Pou Instance</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getPouInstance() <em>Pou Instance</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getPouInstance()
-     * @generated
-     * @ordered
-     */
+	 * @see #getPouInstance()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<PouInstance> pouInstance;
 
     /**
-     * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddData()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddData()
+	 * @generated
+	 * @ordered
+	 */
     protected AddData addData;
 
     /**
-     * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDocumentation()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDocumentation()
+	 * @generated
+	 * @ordered
+	 */
     protected FormattedText documentation;
 
     /**
-     * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String GLOBAL_ID_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected String globalId = GLOBAL_ID_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ResourceTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getResourceType();
-    }
+		return Tc60201Package.eINSTANCE.getResourceType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<TaskType> getTask() {
-        if (task == null) {
-            task = new EObjectContainmentEList<TaskType>(TaskType.class, this, Tc60201Package.RESOURCE_TYPE__TASK);
-        }
-        return task;
-    }
+		if (task == null) {
+			task = new EObjectContainmentEList<TaskType>(TaskType.class, this, Tc60201Package.RESOURCE_TYPE__TASK);
+		}
+		return task;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<VarList> getGlobalVars() {
-        if (globalVars == null) {
-            globalVars = new EObjectContainmentEList<VarList>(VarList.class, this, Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS);
-        }
-        return globalVars;
-    }
+		if (globalVars == null) {
+			globalVars = new EObjectContainmentEList<VarList>(VarList.class, this, Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS);
+		}
+		return globalVars;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<PouInstance> getPouInstance() {
-        if (pouInstance == null) {
-            pouInstance = new EObjectContainmentEList<PouInstance>(PouInstance.class, this, Tc60201Package.RESOURCE_TYPE__POU_INSTANCE);
-        }
-        return pouInstance;
-    }
+		if (pouInstance == null) {
+			pouInstance = new EObjectContainmentEList<PouInstance>(PouInstance.class, this, Tc60201Package.RESOURCE_TYPE__POU_INSTANCE);
+		}
+		return pouInstance;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public AddData getAddData() {
-        return addData;
-    }
+		return addData;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
-        AddData oldAddData = addData;
-        addData = newAddData;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__ADD_DATA, oldAddData, newAddData);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		AddData oldAddData = addData;
+		addData = newAddData;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__ADD_DATA, oldAddData, newAddData);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAddData(AddData newAddData) {
-        if (newAddData != addData) {
-            NotificationChain msgs = null;
-            if (addData != null)
-                msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__ADD_DATA, null, msgs);
-            if (newAddData != null)
-                msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__ADD_DATA, null, msgs);
-            msgs = basicSetAddData(newAddData, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__ADD_DATA, newAddData, newAddData));
-    }
+		if (newAddData != addData) {
+			NotificationChain msgs = null;
+			if (addData != null)
+				msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__ADD_DATA, null, msgs);
+			if (newAddData != null)
+				msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__ADD_DATA, null, msgs);
+			msgs = basicSetAddData(newAddData, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__ADD_DATA, newAddData, newAddData));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FormattedText getDocumentation() {
-        return documentation;
-    }
+		return documentation;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
-        FormattedText oldDocumentation = documentation;
-        documentation = newDocumentation;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		FormattedText oldDocumentation = documentation;
+		documentation = newDocumentation;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setDocumentation(FormattedText newDocumentation) {
-        if (newDocumentation != documentation) {
-            NotificationChain msgs = null;
-            if (documentation != null)
-                msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, null, msgs);
-            if (newDocumentation != null)
-                msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, null, msgs);
-            msgs = basicSetDocumentation(newDocumentation, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
-    }
+		if (newDocumentation != documentation) {
+			NotificationChain msgs = null;
+			if (documentation != null)
+				msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, null, msgs);
+			if (newDocumentation != null)
+				msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, null, msgs);
+			msgs = basicSetDocumentation(newDocumentation, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getGlobalId() {
-        return globalId;
-    }
+		return globalId;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setGlobalId(String newGlobalId) {
-        String oldGlobalId = globalId;
-        globalId = newGlobalId;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__GLOBAL_ID, oldGlobalId, globalId));
-    }
+		String oldGlobalId = globalId;
+		globalId = newGlobalId;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__GLOBAL_ID, oldGlobalId, globalId));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RESOURCE_TYPE__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.RESOURCE_TYPE__TASK:
-                return ((InternalEList<?>)getTask()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
-                return ((InternalEList<?>)getGlobalVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
-                return ((InternalEList<?>)getPouInstance()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
-                return basicSetAddData(null, msgs);
-            case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
-                return basicSetDocumentation(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.RESOURCE_TYPE__TASK:
+				return ((InternalEList<?>)getTask()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
+				return ((InternalEList<?>)getGlobalVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
+				return ((InternalEList<?>)getPouInstance()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
+				return basicSetAddData(null, msgs);
+			case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
+				return basicSetDocumentation(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.RESOURCE_TYPE__TASK:
-                return getTask();
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
-                return getGlobalVars();
-            case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
-                return getPouInstance();
-            case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
-                return getAddData();
-            case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
-                return getDocumentation();
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
-                return getGlobalId();
-            case Tc60201Package.RESOURCE_TYPE__NAME:
-                return getName();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.RESOURCE_TYPE__TASK:
+				return getTask();
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
+				return getGlobalVars();
+			case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
+				return getPouInstance();
+			case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
+				return getAddData();
+			case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
+				return getDocumentation();
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
+				return getGlobalId();
+			case Tc60201Package.RESOURCE_TYPE__NAME:
+				return getName();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.RESOURCE_TYPE__TASK:
-                getTask().clear();
-                getTask().addAll((Collection<? extends TaskType>)newValue);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
-                getGlobalVars().clear();
-                getGlobalVars().addAll((Collection<? extends VarList>)newValue);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
-                getPouInstance().clear();
-                getPouInstance().addAll((Collection<? extends PouInstance>)newValue);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
-                setAddData((AddData)newValue);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)newValue);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
-                setGlobalId((String)newValue);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__NAME:
-                setName((String)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.RESOURCE_TYPE__TASK:
+				getTask().clear();
+				getTask().addAll((Collection<? extends TaskType>)newValue);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
+				getGlobalVars().clear();
+				getGlobalVars().addAll((Collection<? extends VarList>)newValue);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
+				getPouInstance().clear();
+				getPouInstance().addAll((Collection<? extends PouInstance>)newValue);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
+				setAddData((AddData)newValue);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)newValue);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
+				setGlobalId((String)newValue);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__NAME:
+				setName((String)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.RESOURCE_TYPE__TASK:
-                getTask().clear();
-                return;
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
-                getGlobalVars().clear();
-                return;
-            case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
-                getPouInstance().clear();
-                return;
-            case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
-                setAddData((AddData)null);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)null);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
-                setGlobalId(GLOBAL_ID_EDEFAULT);
-                return;
-            case Tc60201Package.RESOURCE_TYPE__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.RESOURCE_TYPE__TASK:
+				getTask().clear();
+				return;
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
+				getGlobalVars().clear();
+				return;
+			case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
+				getPouInstance().clear();
+				return;
+			case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
+				setAddData((AddData)null);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)null);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
+				setGlobalId(GLOBAL_ID_EDEFAULT);
+				return;
+			case Tc60201Package.RESOURCE_TYPE__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.RESOURCE_TYPE__TASK:
-                return task != null && !task.isEmpty();
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
-                return globalVars != null && !globalVars.isEmpty();
-            case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
-                return pouInstance != null && !pouInstance.isEmpty();
-            case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
-                return addData != null;
-            case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
-                return documentation != null;
-            case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
-                return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
-            case Tc60201Package.RESOURCE_TYPE__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.RESOURCE_TYPE__TASK:
+				return task != null && !task.isEmpty();
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_VARS:
+				return globalVars != null && !globalVars.isEmpty();
+			case Tc60201Package.RESOURCE_TYPE__POU_INSTANCE:
+				return pouInstance != null && !pouInstance.isEmpty();
+			case Tc60201Package.RESOURCE_TYPE__ADD_DATA:
+				return addData != null;
+			case Tc60201Package.RESOURCE_TYPE__DOCUMENTATION:
+				return documentation != null;
+			case Tc60201Package.RESOURCE_TYPE__GLOBAL_ID:
+				return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
+			case Tc60201Package.RESOURCE_TYPE__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (globalId: ");
-        result.append(globalId);
-        result.append(", name: ");
-        result.append(name);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (globalId: ");
+		result.append(globalId);
+		result.append(", name: ");
+		result.append(name);
+		result.append(')');
+		return result.toString();
+	}
 
 } //ResourceTypeImpl

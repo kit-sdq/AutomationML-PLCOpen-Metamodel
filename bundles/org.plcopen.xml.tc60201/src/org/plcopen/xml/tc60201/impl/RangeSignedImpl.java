@@ -28,190 +28,190 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class RangeSignedImpl extends MinimalEObjectImpl.Container implements RangeSigned {
     /**
-     * The default value of the '{@link #getLower() <em>Lower</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getLower() <em>Lower</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getLower()
-     * @generated
-     * @ordered
-     */
+	 * @see #getLower()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String LOWER_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getLower() <em>Lower</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getLower() <em>Lower</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getLower()
-     * @generated
-     * @ordered
-     */
+	 * @see #getLower()
+	 * @generated
+	 * @ordered
+	 */
     protected String lower = LOWER_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getUpper() <em>Upper</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getUpper() <em>Upper</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getUpper()
-     * @generated
-     * @ordered
-     */
+	 * @see #getUpper()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String UPPER_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getUpper() <em>Upper</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getUpper() <em>Upper</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getUpper()
-     * @generated
-     * @ordered
-     */
+	 * @see #getUpper()
+	 * @generated
+	 * @ordered
+	 */
     protected String upper = UPPER_EDEFAULT;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected RangeSignedImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getRangeSigned();
-    }
+		return Tc60201Package.eINSTANCE.getRangeSigned();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getLower() {
-        return lower;
-    }
+		return lower;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setLower(String newLower) {
-        String oldLower = lower;
-        lower = newLower;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RANGE_SIGNED__LOWER, oldLower, lower));
-    }
+		String oldLower = lower;
+		lower = newLower;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RANGE_SIGNED__LOWER, oldLower, lower));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getUpper() {
-        return upper;
-    }
+		return upper;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setUpper(String newUpper) {
-        String oldUpper = upper;
-        upper = newUpper;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RANGE_SIGNED__UPPER, oldUpper, upper));
-    }
+		String oldUpper = upper;
+		upper = newUpper;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RANGE_SIGNED__UPPER, oldUpper, upper));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.RANGE_SIGNED__LOWER:
-                return getLower();
-            case Tc60201Package.RANGE_SIGNED__UPPER:
-                return getUpper();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.RANGE_SIGNED__LOWER:
+				return getLower();
+			case Tc60201Package.RANGE_SIGNED__UPPER:
+				return getUpper();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.RANGE_SIGNED__LOWER:
-                setLower((String)newValue);
-                return;
-            case Tc60201Package.RANGE_SIGNED__UPPER:
-                setUpper((String)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.RANGE_SIGNED__LOWER:
+				setLower((String)newValue);
+				return;
+			case Tc60201Package.RANGE_SIGNED__UPPER:
+				setUpper((String)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.RANGE_SIGNED__LOWER:
-                setLower(LOWER_EDEFAULT);
-                return;
-            case Tc60201Package.RANGE_SIGNED__UPPER:
-                setUpper(UPPER_EDEFAULT);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.RANGE_SIGNED__LOWER:
+				setLower(LOWER_EDEFAULT);
+				return;
+			case Tc60201Package.RANGE_SIGNED__UPPER:
+				setUpper(UPPER_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.RANGE_SIGNED__LOWER:
-                return LOWER_EDEFAULT == null ? lower != null : !LOWER_EDEFAULT.equals(lower);
-            case Tc60201Package.RANGE_SIGNED__UPPER:
-                return UPPER_EDEFAULT == null ? upper != null : !UPPER_EDEFAULT.equals(upper);
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.RANGE_SIGNED__LOWER:
+				return LOWER_EDEFAULT == null ? lower != null : !LOWER_EDEFAULT.equals(lower);
+			case Tc60201Package.RANGE_SIGNED__UPPER:
+				return UPPER_EDEFAULT == null ? upper != null : !UPPER_EDEFAULT.equals(upper);
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (lower: ");
-        result.append(lower);
-        result.append(", upper: ");
-        result.append(upper);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (lower: ");
+		result.append(lower);
+		result.append(", upper: ");
+		result.append(upper);
+		result.append(')');
+		return result.toString();
+	}
 
 } //RangeSignedImpl

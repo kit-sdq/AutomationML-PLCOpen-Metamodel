@@ -35,118 +35,118 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class DataTypesTypeImpl extends MinimalEObjectImpl.Container implements DataTypesType {
     /**
-     * The cached value of the '{@link #getDataType() <em>Data Type</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDataType() <em>Data Type</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDataType()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDataType()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<DataTypeType> dataType;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected DataTypesTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getDataTypesType();
-    }
+		return Tc60201Package.eINSTANCE.getDataTypesType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<DataTypeType> getDataType() {
-        if (dataType == null) {
-            dataType = new EObjectContainmentEList<DataTypeType>(DataTypeType.class, this, Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE);
-        }
-        return dataType;
-    }
+		if (dataType == null) {
+			dataType = new EObjectContainmentEList<DataTypeType>(DataTypeType.class, this, Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE);
+		}
+		return dataType;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
-                return ((InternalEList<?>)getDataType()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
+				return ((InternalEList<?>)getDataType()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
-                return getDataType();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
+				return getDataType();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
-                getDataType().clear();
-                getDataType().addAll((Collection<? extends DataTypeType>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
+				getDataType().clear();
+				getDataType().addAll((Collection<? extends DataTypeType>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
-                getDataType().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
+				getDataType().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
-                return dataType != null && !dataType.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
+				return dataType != null && !dataType.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //DataTypesTypeImpl

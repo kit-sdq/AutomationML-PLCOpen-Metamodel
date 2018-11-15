@@ -16,22 +16,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class OutputVarsTypeImpl extends VarListImpl implements OutputVarsType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected OutputVarsTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getOutputVarsType();
-    }
+		return Tc60201Package.eINSTANCE.getOutputVarsType();
+	}
 
 } //OutputVarsTypeImpl

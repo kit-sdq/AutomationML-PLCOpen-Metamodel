@@ -39,183 +39,183 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  */
 public class ArrayTypeImpl extends MinimalEObjectImpl.Container implements ArrayType {
     /**
-     * The cached value of the '{@link #getDimension() <em>Dimension</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDimension() <em>Dimension</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDimension()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDimension()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<RangeSigned> dimension;
 
     /**
-     * The cached value of the '{@link #getBaseType() <em>Base Type</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getBaseType() <em>Base Type</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getBaseType()
-     * @generated
-     * @ordered
-     */
+	 * @see #getBaseType()
+	 * @generated
+	 * @ordered
+	 */
     protected DataType baseType;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ArrayTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getArrayType();
-    }
+		return Tc60201Package.eINSTANCE.getArrayType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<RangeSigned> getDimension() {
-        if (dimension == null) {
-            dimension = new EObjectContainmentEList<RangeSigned>(RangeSigned.class, this, Tc60201Package.ARRAY_TYPE__DIMENSION);
-        }
-        return dimension;
-    }
+		if (dimension == null) {
+			dimension = new EObjectContainmentEList<RangeSigned>(RangeSigned.class, this, Tc60201Package.ARRAY_TYPE__DIMENSION);
+		}
+		return dimension;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public DataType getBaseType() {
-        return baseType;
-    }
+		return baseType;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
-        DataType oldBaseType = baseType;
-        baseType = newBaseType;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.ARRAY_TYPE__BASE_TYPE, oldBaseType, newBaseType);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		DataType oldBaseType = baseType;
+		baseType = newBaseType;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.ARRAY_TYPE__BASE_TYPE, oldBaseType, newBaseType);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setBaseType(DataType newBaseType) {
-        if (newBaseType != baseType) {
-            NotificationChain msgs = null;
-            if (baseType != null)
-                msgs = ((InternalEObject)baseType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.ARRAY_TYPE__BASE_TYPE, null, msgs);
-            if (newBaseType != null)
-                msgs = ((InternalEObject)newBaseType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.ARRAY_TYPE__BASE_TYPE, null, msgs);
-            msgs = basicSetBaseType(newBaseType, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ARRAY_TYPE__BASE_TYPE, newBaseType, newBaseType));
-    }
+		if (newBaseType != baseType) {
+			NotificationChain msgs = null;
+			if (baseType != null)
+				msgs = ((InternalEObject)baseType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.ARRAY_TYPE__BASE_TYPE, null, msgs);
+			if (newBaseType != null)
+				msgs = ((InternalEObject)newBaseType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.ARRAY_TYPE__BASE_TYPE, null, msgs);
+			msgs = basicSetBaseType(newBaseType, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ARRAY_TYPE__BASE_TYPE, newBaseType, newBaseType));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.ARRAY_TYPE__DIMENSION:
-                return ((InternalEList<?>)getDimension()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
-                return basicSetBaseType(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.ARRAY_TYPE__DIMENSION:
+				return ((InternalEList<?>)getDimension()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
+				return basicSetBaseType(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.ARRAY_TYPE__DIMENSION:
-                return getDimension();
-            case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
-                return getBaseType();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.ARRAY_TYPE__DIMENSION:
+				return getDimension();
+			case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
+				return getBaseType();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.ARRAY_TYPE__DIMENSION:
-                getDimension().clear();
-                getDimension().addAll((Collection<? extends RangeSigned>)newValue);
-                return;
-            case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
-                setBaseType((DataType)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.ARRAY_TYPE__DIMENSION:
+				getDimension().clear();
+				getDimension().addAll((Collection<? extends RangeSigned>)newValue);
+				return;
+			case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
+				setBaseType((DataType)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.ARRAY_TYPE__DIMENSION:
-                getDimension().clear();
-                return;
-            case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
-                setBaseType((DataType)null);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.ARRAY_TYPE__DIMENSION:
+				getDimension().clear();
+				return;
+			case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
+				setBaseType((DataType)null);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.ARRAY_TYPE__DIMENSION:
-                return dimension != null && !dimension.isEmpty();
-            case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
-                return baseType != null;
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.ARRAY_TYPE__DIMENSION:
+				return dimension != null && !dimension.isEmpty();
+			case Tc60201Package.ARRAY_TYPE__BASE_TYPE:
+				return baseType != null;
+		}
+		return super.eIsSet(featureID);
+	}
 
 } //ArrayTypeImpl

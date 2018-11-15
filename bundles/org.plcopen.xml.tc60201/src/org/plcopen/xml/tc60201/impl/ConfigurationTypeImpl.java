@@ -49,533 +49,533 @@ import org.plcopen.xml.tc60201.VarListConfig;
  */
 public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implements ConfigurationType {
     /**
-     * The cached value of the '{@link #getResource() <em>Resource</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getResource() <em>Resource</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getResource()
-     * @generated
-     * @ordered
-     */
+	 * @see #getResource()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<ResourceType> resource;
 
     /**
-     * The cached value of the '{@link #getGlobalVars() <em>Global Vars</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGlobalVars() <em>Global Vars</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalVars()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalVars()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<VarList> globalVars;
 
     /**
-     * The cached value of the '{@link #getAccessVars() <em>Access Vars</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAccessVars() <em>Access Vars</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAccessVars()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAccessVars()
+	 * @generated
+	 * @ordered
+	 */
     protected VarListAccess accessVars;
 
     /**
-     * The cached value of the '{@link #getConfigVars() <em>Config Vars</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getConfigVars() <em>Config Vars</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getConfigVars()
-     * @generated
-     * @ordered
-     */
+	 * @see #getConfigVars()
+	 * @generated
+	 * @ordered
+	 */
     protected VarListConfig configVars;
 
     /**
-     * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAddData()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAddData()
+	 * @generated
+	 * @ordered
+	 */
     protected AddData addData;
 
     /**
-     * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDocumentation()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDocumentation()
+	 * @generated
+	 * @ordered
+	 */
     protected FormattedText documentation;
 
     /**
-     * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String GLOBAL_ID_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getGlobalId()
-     * @generated
-     * @ordered
-     */
+	 * @see #getGlobalId()
+	 * @generated
+	 * @ordered
+	 */
     protected String globalId = GLOBAL_ID_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ConfigurationTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return Tc60201Package.eINSTANCE.getConfigurationType();
-    }
+		return Tc60201Package.eINSTANCE.getConfigurationType();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<ResourceType> getResource() {
-        if (resource == null) {
-            resource = new EObjectContainmentEList<ResourceType>(ResourceType.class, this, Tc60201Package.CONFIGURATION_TYPE__RESOURCE);
-        }
-        return resource;
-    }
+		if (resource == null) {
+			resource = new EObjectContainmentEList<ResourceType>(ResourceType.class, this, Tc60201Package.CONFIGURATION_TYPE__RESOURCE);
+		}
+		return resource;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<VarList> getGlobalVars() {
-        if (globalVars == null) {
-            globalVars = new EObjectContainmentEList<VarList>(VarList.class, this, Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS);
-        }
-        return globalVars;
-    }
+		if (globalVars == null) {
+			globalVars = new EObjectContainmentEList<VarList>(VarList.class, this, Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS);
+		}
+		return globalVars;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public VarListAccess getAccessVars() {
-        return accessVars;
-    }
+		return accessVars;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetAccessVars(VarListAccess newAccessVars, NotificationChain msgs) {
-        VarListAccess oldAccessVars = accessVars;
-        accessVars = newAccessVars;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, oldAccessVars, newAccessVars);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		VarListAccess oldAccessVars = accessVars;
+		accessVars = newAccessVars;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, oldAccessVars, newAccessVars);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAccessVars(VarListAccess newAccessVars) {
-        if (newAccessVars != accessVars) {
-            NotificationChain msgs = null;
-            if (accessVars != null)
-                msgs = ((InternalEObject)accessVars).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, null, msgs);
-            if (newAccessVars != null)
-                msgs = ((InternalEObject)newAccessVars).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, null, msgs);
-            msgs = basicSetAccessVars(newAccessVars, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, newAccessVars, newAccessVars));
-    }
+		if (newAccessVars != accessVars) {
+			NotificationChain msgs = null;
+			if (accessVars != null)
+				msgs = ((InternalEObject)accessVars).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, null, msgs);
+			if (newAccessVars != null)
+				msgs = ((InternalEObject)newAccessVars).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, null, msgs);
+			msgs = basicSetAccessVars(newAccessVars, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, newAccessVars, newAccessVars));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public VarListConfig getConfigVars() {
-        return configVars;
-    }
+		return configVars;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetConfigVars(VarListConfig newConfigVars, NotificationChain msgs) {
-        VarListConfig oldConfigVars = configVars;
-        configVars = newConfigVars;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, oldConfigVars, newConfigVars);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		VarListConfig oldConfigVars = configVars;
+		configVars = newConfigVars;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, oldConfigVars, newConfigVars);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setConfigVars(VarListConfig newConfigVars) {
-        if (newConfigVars != configVars) {
-            NotificationChain msgs = null;
-            if (configVars != null)
-                msgs = ((InternalEObject)configVars).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, null, msgs);
-            if (newConfigVars != null)
-                msgs = ((InternalEObject)newConfigVars).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, null, msgs);
-            msgs = basicSetConfigVars(newConfigVars, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, newConfigVars, newConfigVars));
-    }
+		if (newConfigVars != configVars) {
+			NotificationChain msgs = null;
+			if (configVars != null)
+				msgs = ((InternalEObject)configVars).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, null, msgs);
+			if (newConfigVars != null)
+				msgs = ((InternalEObject)newConfigVars).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, null, msgs);
+			msgs = basicSetConfigVars(newConfigVars, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, newConfigVars, newConfigVars));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public AddData getAddData() {
-        return addData;
-    }
+		return addData;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
-        AddData oldAddData = addData;
-        addData = newAddData;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, oldAddData, newAddData);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		AddData oldAddData = addData;
+		addData = newAddData;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, oldAddData, newAddData);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setAddData(AddData newAddData) {
-        if (newAddData != addData) {
-            NotificationChain msgs = null;
-            if (addData != null)
-                msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, null, msgs);
-            if (newAddData != null)
-                msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, null, msgs);
-            msgs = basicSetAddData(newAddData, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, newAddData, newAddData));
-    }
+		if (newAddData != addData) {
+			NotificationChain msgs = null;
+			if (addData != null)
+				msgs = ((InternalEObject)addData).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, null, msgs);
+			if (newAddData != null)
+				msgs = ((InternalEObject)newAddData).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, null, msgs);
+			msgs = basicSetAddData(newAddData, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, newAddData, newAddData));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public FormattedText getDocumentation() {
-        return documentation;
-    }
+		return documentation;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
-        FormattedText oldDocumentation = documentation;
-        documentation = newDocumentation;
-        if (eNotificationRequired()) {
-            ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
-            if (msgs == null) msgs = notification; else msgs.add(notification);
-        }
-        return msgs;
-    }
+		FormattedText oldDocumentation = documentation;
+		documentation = newDocumentation;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, oldDocumentation, newDocumentation);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setDocumentation(FormattedText newDocumentation) {
-        if (newDocumentation != documentation) {
-            NotificationChain msgs = null;
-            if (documentation != null)
-                msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, null, msgs);
-            if (newDocumentation != null)
-                msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, null, msgs);
-            msgs = basicSetDocumentation(newDocumentation, msgs);
-            if (msgs != null) msgs.dispatch();
-        }
-        else if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
-    }
+		if (newDocumentation != documentation) {
+			NotificationChain msgs = null;
+			if (documentation != null)
+				msgs = ((InternalEObject)documentation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, null, msgs);
+			if (newDocumentation != null)
+				msgs = ((InternalEObject)newDocumentation).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, null, msgs);
+			msgs = basicSetDocumentation(newDocumentation, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getGlobalId() {
-        return globalId;
-    }
+		return globalId;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setGlobalId(String newGlobalId) {
-        String oldGlobalId = globalId;
-        globalId = newGlobalId;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID, oldGlobalId, globalId));
-    }
+		String oldGlobalId = globalId;
+		globalId = newGlobalId;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID, oldGlobalId, globalId));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
-                return ((InternalEList<?>)getResource()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
-                return ((InternalEList<?>)getGlobalVars()).basicRemove(otherEnd, msgs);
-            case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
-                return basicSetAccessVars(null, msgs);
-            case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
-                return basicSetConfigVars(null, msgs);
-            case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
-                return basicSetAddData(null, msgs);
-            case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
-                return basicSetDocumentation(null, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
+				return ((InternalEList<?>)getResource()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
+				return ((InternalEList<?>)getGlobalVars()).basicRemove(otherEnd, msgs);
+			case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
+				return basicSetAccessVars(null, msgs);
+			case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
+				return basicSetConfigVars(null, msgs);
+			case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
+				return basicSetAddData(null, msgs);
+			case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
+				return basicSetDocumentation(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
-                return getResource();
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
-                return getGlobalVars();
-            case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
-                return getAccessVars();
-            case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
-                return getConfigVars();
-            case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
-                return getAddData();
-            case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
-                return getDocumentation();
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
-                return getGlobalId();
-            case Tc60201Package.CONFIGURATION_TYPE__NAME:
-                return getName();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
+				return getResource();
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
+				return getGlobalVars();
+			case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
+				return getAccessVars();
+			case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
+				return getConfigVars();
+			case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
+				return getAddData();
+			case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
+				return getDocumentation();
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
+				return getGlobalId();
+			case Tc60201Package.CONFIGURATION_TYPE__NAME:
+				return getName();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
-                getResource().clear();
-                getResource().addAll((Collection<? extends ResourceType>)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
-                getGlobalVars().clear();
-                getGlobalVars().addAll((Collection<? extends VarList>)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
-                setAccessVars((VarListAccess)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
-                setConfigVars((VarListConfig)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
-                setAddData((AddData)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
-                setGlobalId((String)newValue);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__NAME:
-                setName((String)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
+				getResource().clear();
+				getResource().addAll((Collection<? extends ResourceType>)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
+				getGlobalVars().clear();
+				getGlobalVars().addAll((Collection<? extends VarList>)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
+				setAccessVars((VarListAccess)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
+				setConfigVars((VarListConfig)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
+				setAddData((AddData)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
+				setGlobalId((String)newValue);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__NAME:
+				setName((String)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
-                getResource().clear();
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
-                getGlobalVars().clear();
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
-                setAccessVars((VarListAccess)null);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
-                setConfigVars((VarListConfig)null);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
-                setAddData((AddData)null);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
-                setDocumentation((FormattedText)null);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
-                setGlobalId(GLOBAL_ID_EDEFAULT);
-                return;
-            case Tc60201Package.CONFIGURATION_TYPE__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
+				getResource().clear();
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
+				getGlobalVars().clear();
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
+				setAccessVars((VarListAccess)null);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
+				setConfigVars((VarListConfig)null);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
+				setAddData((AddData)null);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
+				setDocumentation((FormattedText)null);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
+				setGlobalId(GLOBAL_ID_EDEFAULT);
+				return;
+			case Tc60201Package.CONFIGURATION_TYPE__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
-                return resource != null && !resource.isEmpty();
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
-                return globalVars != null && !globalVars.isEmpty();
-            case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
-                return accessVars != null;
-            case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
-                return configVars != null;
-            case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
-                return addData != null;
-            case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
-                return documentation != null;
-            case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
-                return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
-            case Tc60201Package.CONFIGURATION_TYPE__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
+				return resource != null && !resource.isEmpty();
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS:
+				return globalVars != null && !globalVars.isEmpty();
+			case Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS:
+				return accessVars != null;
+			case Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS:
+				return configVars != null;
+			case Tc60201Package.CONFIGURATION_TYPE__ADD_DATA:
+				return addData != null;
+			case Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION:
+				return documentation != null;
+			case Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID:
+				return GLOBAL_ID_EDEFAULT == null ? globalId != null : !GLOBAL_ID_EDEFAULT.equals(globalId);
+			case Tc60201Package.CONFIGURATION_TYPE__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (globalId: ");
-        result.append(globalId);
-        result.append(", name: ");
-        result.append(name);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (globalId: ");
+		result.append(globalId);
+		result.append(", name: ");
+		result.append(name);
+		result.append(')');
+		return result.toString();
+	}
 
 } //ConfigurationTypeImpl
